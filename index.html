@@ -2,27 +2,61 @@
 <html>
 	<head>
 		<title>Faris Aziz's Website</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="index.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://kit.fontawesome.com/b2feb41aee.js" crossorigin="anonymous"></script>
+		<script src="index.js"></script>
 	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Faris Aziz!</h1>
-				<p>I'm best known as student college <em>A Boy of Freedom</em> Trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:farisaziz22@gmail.com">email</a></li>
-        		<li><a href="https://github.com/DTalone">github</a></li>
-			</ul>
-		</footer>
+	<body class="container">
+		<video autoplay muted loop class="myVideo">
+			<source src="resources/videos/sky.mp4" type="video/mp4">
+			Your browser does not support HTML5 video.
+		</video>
+		<div class="topnav" id="myTopnav">
+			<a href="#default" class="logo"><img src="resources/images/logoprofile.png" alt="" class="logo"></a>
+			<a href="index.html" class="active">Home</a>
+			<a href="project.html">Projects</a>
+			<a href="store.html">Store</a>
+			<a href="#about">Contact</a>
+			<a href="javascript:void(0);" class="icon" onclick="myNavbar()">
+			  <i class="fa fa-bars"></i>
+			</a>
+		</div>
+
+		<h2 data-text="Welcome!" class="welcome">
+			Welcome
+		</h2>
+
+		<div class="container-box">
+			<div class="box">
+				<div class="icon">
+					<i class="fas fa-user-circle"></i>
+				</div>
+				<div class="content">
+					<h3>Test</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta tenetur voluptatem ut quasi laboriosam unde expedita deleniti consectetur doloremque numquam iure quibusdam, cum reprehenderit natus? Reiciendis, recusandae placeat! Dolores?</p>
+				</div>
+
+			</div>
+			<div class="box">
+				<div class="icon">
+					<i class="fas fa-laptop-code"></i>
+				</div>
+				<div class="content">
+					<h3>Test</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta tenetur voluptatem ut quasi laboriosam unde expedita deleniti consectetur doloremque numquam iure quibusdam, cum reprehenderit natus? Reiciendis, recusandae placeat! Dolores?</p>
+				</div>
+				
+			</div>
+		</div>
+
+
+		<img src="resources/images/porto-profile.png" alt="" class="feature-img">
+
+		<!-- <div class="social-links">
+			<p id="cn"> Click on the button to change the light button</p>
+			<button type="button" onclick="changefont()">Click</button>
+		</div> -->
 	</body>
 </html>
