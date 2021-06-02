@@ -111,14 +111,14 @@
   .container-box .box .content h3 {
     margin: 0 0 10px;
     padding: 0;
-    color: green;
+    color: #05445E;
     font-size: 24px;
   }
   
   .container-box .box .content p {
     margin: 0;
     padding: 0;
-    color: green;
+    color: #189AB4;
   }
   
   .container-box .box:nth-child(1) .icon {
