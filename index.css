@@ -36,6 +36,10 @@
     background-image: url(resources/images/back.png);
     background-position: center;
     color: white;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
   }
   
   .topnav .icon {
@@ -44,6 +48,7 @@
 
   .topnav .logo {
       height: 35px;
+      pointer-events: none;
   }
 
   @media screen and (max-width: 600px) {
