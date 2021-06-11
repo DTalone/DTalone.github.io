@@ -148,6 +148,8 @@
     }
 
     .container-box {
-      display: none;
+      /* display: none; */
+      transform: scale(70%);
+      margin-left: -95px;
     }
   }
