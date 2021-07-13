@@ -18,6 +18,6 @@ export default {
 <style scoped>
 /*  */
 .tes {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 </style>
