@@ -1,10 +1,10 @@
 <template>
   <v-app-bar app class="tes pl-5 pr-5">
     <div class="hidden-md-and-up">
-        <v-btn text>
+        <v-btn text @click="handleDrawer(drawer)">
           <v-icon
             :color="this.$vuetify.theme.themes.light.accent"
-            @click="handleDrawer(drawer)"
+            
           >
             > mdi-menu
           </v-icon>
