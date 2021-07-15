@@ -6,6 +6,7 @@
 
 <script>
 import PortoImage from "@/components/PortoImage.vue";
+import { mapActions } from "vuex";
 export default {
   name: "App",
   data() {
@@ -15,6 +16,14 @@ export default {
   },
   components: {
     PortoImage,
+  },
+  methods: {
+    ...mapActions({
+      handleHome: "handleHome",
+    }),
+  },
+  created() {
+    this.handleHome(true);
   },
 };
 </script>

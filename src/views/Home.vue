@@ -8,6 +8,8 @@
 </template>
 
 <script>
+import { mapActions } from "vuex";
+
 import ChartDoughnut from "@/components/Doughnut.vue";
 export default {
   name: "App",
@@ -40,6 +42,15 @@ export default {
       },
       // optionsDoughnut: {}
     };
+  },
+  methods: {
+    ...mapActions({
+      handleDrawer: "handleDrawer",
+      handleHome: "handleHome",
+    }),
+  },
+  created() {
+    this.handleHome(false);
   },
 };
 </script>

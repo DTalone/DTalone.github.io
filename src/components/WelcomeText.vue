@@ -1,5 +1,5 @@
 <template>
-  <div class="welcome-text">
+  <div class="welcome-text text-center" v-resize-text="{minFontSize: '58px', maxFontSize: '300px'}">
     <h1
       class="
         text text-transparent
@@ -9,13 +9,18 @@
         font-extrabold
       "
     >
-      <span class="text-wrap">Welcome</span>
+      <span class="text-wrap" style="display:block; width:100%;" >Welcome</span>
     </h1>
   </div>
 </template>
 
 <script>
-export default {};
+import ResizeText from 'vue-resize-text'
+export default {
+   directives: {
+    ResizeText
+ }
+};
 </script>
 
 <style lang="scss" scoped>
@@ -38,7 +43,7 @@ export default {};
   -webkit-text-fill-color: black; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
-  font-size: 10vw;
+  // font-size: 10vw;
   color: #fff;
   animation: flicker 1.5s infinite alternate;
   text-shadow:

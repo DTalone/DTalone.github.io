@@ -1,10 +1,10 @@
 <template>
   <v-app class="app">
-    <Navbar />
+    <Navbar v-if="isHome" />
     <Drawer />
     <v-main>
       <v-container fluid>
-        <router-view />
+        <router-view :key="$route.fullPath" />
       </v-container>
     </v-main>
     <Footer />
@@ -16,12 +16,19 @@
 import Footer from "./components/Footer.vue";
 import Navbar from "./components/Navbar.vue";
 import Drawer from "./components/Drawer.vue";
+import { mapGetters } from "vuex";
+
 export default {
   name: "App",
   data() {
     return {
       drawer: false,
     };
+  },
+  computed: {
+    ...mapGetters({
+      isHome: "getIsHome",
+    }),
   },
   components: {
     Footer,

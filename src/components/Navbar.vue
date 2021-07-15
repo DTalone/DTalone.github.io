@@ -45,19 +45,12 @@
 import { mapGetters, mapActions } from "vuex";
 export default {
   name: "Navbar",
-  created() {
-    console.log(this);
-  },
   computed: {
     ...mapGetters({
       drawer: "getDrawer",
     }),
   },
   methods: {
-    isMobile() {
-      console.log(this.$vuetify);
-      return this.$vuetify.breakpoint.xsOnly;
-    },
     ...mapActions({
       handleDrawer: "handleDrawer",
     }),

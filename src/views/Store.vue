@@ -28,11 +28,20 @@
 <script>
 import PortoImage from "@/components/PortoImage.vue";
 import WelcomeText from "@/components/WelcomeText.vue";
+import { mapActions } from "vuex";
 
 export default {
   components: {
     PortoImage,
     WelcomeText,
+  },
+  methods: {
+    ...mapActions({
+      handleHome: "handleHome",
+    }),
+  },
+  created() {
+    this.handleHome(true);
   },
 };
 </script>
