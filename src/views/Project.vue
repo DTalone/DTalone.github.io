@@ -1,11 +1,11 @@
 <template>
   <div>
-    <CardInfo :data="this.data" />
+    <CardQuotes />
   </div>
 </template>
 
 <script>
-import CardInfo from "@/components/CardInfo.vue";
+import CardQuotes from "@/components/CardQuotes.vue";
 import { mapActions } from "vuex";
 export default {
   name: "App",
@@ -21,7 +21,7 @@ export default {
     };
   },
   components: {
-    CardInfo,
+    CardQuotes,
   },
   methods: {
     ...mapActions({

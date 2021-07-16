@@ -1,7 +1,7 @@
 <template>
   <div
     class="welcome-text text-center"
-    v-resize-text="{ minFontSize: '45px', maxFontSize: '300px' }"
+    v-resize-text="{ minFontSize: '36px', maxFontSize: '300px' }"
   >
     <h1
       class="

@@ -1,6 +1,8 @@
 <template>
   <v-container class="card-porto-image">
+    <v-card>
       <v-img class="image-porto" src="@/assets/images/porto-profile.png"> </v-img>
+    </v-card>
   </v-container>
 </template>
 
