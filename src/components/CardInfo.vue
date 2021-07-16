@@ -1,5 +1,5 @@
 <template>
-  <v-container class="container-box" fluid>
+  <v-container class="container-box p-0" fluid>
     <v-card class="box">
       <div class="icon">
         <v-icon class="fas">{{ data.icon }}</v-icon>
@@ -7,8 +7,7 @@
       <div class="content">
         <h3>{{ data.title }}</h3>
         <p>
-          Hello, My name is Faris Aziz, you can call me Faziz. I study in
-          Informatics Engineering
+          {{data.content}}
         </p>
       </div>
     </v-card>
