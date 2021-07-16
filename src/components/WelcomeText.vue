@@ -1,5 +1,8 @@
 <template>
-  <div class="welcome-text text-center" v-resize-text="{minFontSize: '58px', maxFontSize: '300px'}">
+  <div
+    class="welcome-text text-center"
+    v-resize-text="{ minFontSize: '45px', maxFontSize: '300px' }"
+  >
     <h1
       class="
         text text-transparent
@@ -9,17 +12,17 @@
         font-extrabold
       "
     >
-      <span class="text-wrap" style="display:block; width:100%;" >Welcome</span>
+      <span class="text-wrap" style="display: block; width: 100%">Welcome</span>
     </h1>
   </div>
 </template>
 
 <script>
-import ResizeText from 'vue-resize-text'
+import ResizeText from "vue-resize-text";
 export default {
-   directives: {
-    ResizeText
- }
+  directives: {
+    ResizeText,
+  },
 };
 </script>
 
