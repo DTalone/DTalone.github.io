@@ -4,7 +4,6 @@
     <div id="ChartDoughnut">
       <ChartDoughnut :chartData="chartDataDoughnut" />
     </div>
-    <SpeedDial />
   </div>
 </template>
 
@@ -12,12 +11,10 @@
 import { mapActions } from "vuex";
 
 import ChartDoughnut from "@/components/Doughnut.vue";
-import SpeedDial from "@/components/SpeedDial.vue";
 export default {
   name: "App",
   components: {
     ChartDoughnut,
-    SpeedDial,
   },
   data() {
     return {
@@ -57,7 +54,3 @@ export default {
   },
 };
 </script>
-
-
-<style scoped>
-</style>
