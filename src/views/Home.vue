@@ -1,8 +1,8 @@
 <template>
   <v-container fluid>
     <div class="gridpusat grid grid-rows-2 grid-cols-1 gap-4 lg:grid-cols-2">
-      <div class="gridpusat2 tes grid grid-rows-2 grid-cols-2 gap-1 lg:gap-9">
-        <div class="tes col-span-2">
+      <div class="gridpusat2 tes grid grid-rows-3 grid-cols-1 gap-1 sm:grid-cols-2 lg:gap-9">
+        <div class="tes sm:col-span-2">
           <WelcomeText />
         </div>
         <div class="tes">
@@ -11,7 +11,7 @@
         <div class="tes">
           <CardInfo :data="data" />
         </div>
-        <v-icon class="tes col-span-2" large>
+        <v-icon class="tes sm:col-span-2" large>
           mdi-arrow-down
         </v-icon>
       </div>
@@ -72,7 +72,10 @@ export default {
 
 <style scoped>
 .gridpusat2 {
-  grid-template-rows: 1fr 2fr;
+  grid-template-rows: 0.5fr 2fr;
+}
+.gridpusat {
+  grid-template-rows: 1fr;
 }
 .tes {
   border: 1px solid white;
