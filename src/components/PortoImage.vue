@@ -1,7 +1,9 @@
+/* eslint-disable prettier/prettier */
 <template>
   <v-container class="card-porto-image">
-    <v-card>
-      <v-img class="image-porto" src="@/assets/images/porto-profile.png"> </v-img>
+    <v-card color="#1e1e1e">
+      <v-img class="image-porto" src="@/assets/images/porto-profile(blue).png">
+      </v-img>
     </v-card>
   </v-container>
 </template>
@@ -11,9 +13,6 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-.card-porto-image {
-  // border: 1px solid rgba(117, 45, 11, 0.993);
-}
 $x:20;  /*  number of row */
 $y:20;  /*  number of columns */
 $s:0.8; /* speed factor */

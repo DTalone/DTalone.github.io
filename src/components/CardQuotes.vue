@@ -4,9 +4,9 @@
     <div class="text">
       <i class="fas fa-quote-right fa1"></i>
       <div>
-        <h3>{{data.title}}</h3>
+        <h3>{{ data.title }}</h3>
         <p>
-          {{data.content}}
+          {{ data.content }}
         </p>
       </div>
     </div>
@@ -24,7 +24,7 @@ $small: 640px;
 .box {
   background-color: transparent;
   border-radius: 3px;
-  color: #fff;
+  color: #eeebe3;
   //   transform: translate(-50%, -50%);
   width: 400px;
   height: 300px;
@@ -46,8 +46,8 @@ $small: 640px;
     width: 100%;
     height: 100%;
     background: transparent;
-    border-top: 20px solid #fff;
-    border-left: 20px solid #fff;
+    border-top: 20px solid #eeebe3;
+    border-left: 20px solid #eeebe3;
     box-sizing: border-box;
   }
   &:after {
@@ -57,8 +57,8 @@ $small: 640px;
     left: 0;
     width: 100%;
     height: 100%;
-    border-bottom: 20px solid #fff;
-    border-right: 20px solid #fff;
+    border-bottom: 20px solid #eeebe3;
+    border-right: 20px solid #eeebe3;
     box-sizing: border-box;
   }
   .fas {
@@ -72,8 +72,8 @@ $small: 640px;
       height: 30px;
     }
     line-height: 50px !important;
-    background-color: #fff;
-    color: #2c3a47;
+    background-color: #eeebe3;
+    color: #1e1e1e;
   }
   .fa2 {
     position: absolute;
@@ -87,7 +87,7 @@ $small: 640px;
     left: -30px;
     width: calc(100% + 60px);
     height: calc(100% - 60px);
-    background-color: #2c3a47;
+    background-color: #1e1e1e;
     border-radius: 3px;
     transition: 0.4s;
     .fa1 {

@@ -56,10 +56,10 @@ export default {
 }
 .text-wrap {
   border: 0.2rem solid #fff;
-  border-radius: 2rem;
+  border-radius: 1rem;
   padding: 0.4em;
-  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
-    0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #68c3d4,
+    0 0 0.8rem #68c3d4, 0 0 2.8rem #68c3d4, inset 0 0 1.3rem #68c3d4;
 }
 /* Flickering animation */
 @keyframes flicker {

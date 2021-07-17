@@ -8,7 +8,7 @@
           grid grid-rows-3 grid-cols-1
           gap-1
           sm:grid-cols-2
-          lg:gap-3
+          lg:gap-5
         "
       >
         <div class="welcome sm:col-span-2">
@@ -22,11 +22,11 @@
         </div>
         <v-btn
           class="tes icon sm:col-span-2"
-          color="primary"
+          color="#C3F3FB"
           dark
           @click="scrollToElement('scroll-2', { behavior: 'smooth' })"
         >
-          <v-icon large> mdi-arrow-down </v-icon>
+          <v-icon large color="#1e1e1e"> mdi-arrow-down-thick </v-icon>
         </v-btn>
       </div>
       <div class="gridimage tes">
@@ -45,7 +45,7 @@ export default {
   data() {
     return {
       data: {
-        icon: "mdi-folder-network",
+        icon: "mdi-account-circle-outline",
         title: "Profile",
         content: "lorem ipsum kagabungungugngun alas fdadkf",
       },
@@ -83,6 +83,8 @@ export default {
   overflow: hidden;
 }
 .icon {
+  border-radius: 5px;
+  padding: 10px;
   &:active {
     background-color: transparent;
   }

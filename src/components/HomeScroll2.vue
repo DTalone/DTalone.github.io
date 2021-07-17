@@ -10,8 +10,15 @@
       "
     >
       <div class="tes text-center p-10">
-        <h1 class="text-2xl">Framework</h1>
-        <ChartDoughnut :chartData="chartDataDoughnut" :options="chartOptions" />
+        <v-card color="#1e1e1e" class="pa-3">
+          <h1 class="text-2xl">Framework</h1>
+          <div class="pa-5">
+            <ChartDoughnut
+              :chartData="chartDataDoughnut"
+              :options="chartOptions"
+            />
+          </div>
+        </v-card>
       </div>
       <div class="tes grid justify-center items-center gap-10">
         <CardQuotes :data="data" />
@@ -39,8 +46,14 @@ export default {
       chartDataDoughnut: {
         datasets: [
           {
-            data: [10, 20, 30],
-            backgroundColor: ["red", "yellow", "blue"],
+            data: [10, 20, 30, 40, 50],
+            backgroundColor: [
+              "#A0DDFF",
+              "#758ECD",
+              "#C1CEFE",
+              "#7189FF",
+              "#624CAB",
+            ],
           },
         ],
         // These labels appear in the legend and in the tooltips when hovering different arcs

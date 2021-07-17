@@ -1,13 +1,13 @@
 <template>
   <v-container class="container-box p-0" fluid>
-    <v-card class="box">
+    <v-card class="box m-0">
       <div class="icon">
-        <v-icon class="fas">{{ data.icon }}</v-icon>
+        <v-icon class="fas" color="#C3F3FB">{{ data.icon }}</v-icon>
       </div>
       <div class="content">
         <h3>{{ data.title }}</h3>
         <p>
-          {{data.content}}
+          {{ data.content }}
         </p>
       </div>
     </v-card>
@@ -28,11 +28,12 @@ export default {
 .container-box .box {
   min-height: 270px;
   background-color: white;
-  margin: 15px;
+  // margin: 15px;
+  margin-top: 15px;
   box-sizing: border-box;
   overflow: hidden;
   border-radius: 10px;
-  border: 1px solid yellow;
+  // border: 1px solid yellow;
 }
 
 .container-box .box .icon {
@@ -98,7 +99,7 @@ export default {
 }
 
 .container-box .box:nth-child(1) .icon {
-  background-color: #868b8e;
+  background-color: #1e1e1e;
 }
 
 .container-box .box:nth-child(1) {
@@ -106,7 +107,7 @@ export default {
 }
 
 .container-box .box:nth-child(2) .icon {
-  background-color: #868b8e;
+  background-color: #1e1e1e;
 }
 
 .container-box .box:nth-child(2) {

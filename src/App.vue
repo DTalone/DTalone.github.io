@@ -1,5 +1,5 @@
 <template>
-  <v-app class="app">
+  <v-app class="app" id="app">
     <Navbar v-if="isHome" />
     <Drawer />
     <v-main>
@@ -39,3 +39,9 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+#app {
+  background-color: #27292e;
+}
+</style>
