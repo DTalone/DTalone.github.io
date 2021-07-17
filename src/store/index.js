@@ -6,7 +6,7 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   state: {
     drawer: false,
-    isHome: true,
+    isHome: false,
   },
   mutations: {
     SET_DRAWER(state, drawer) {
@@ -21,7 +21,6 @@ export default new Vuex.Store({
       commit("SET_DRAWER", !drawer);
     },
     handleHome({ commit }, isHome) {
-      console.log("handle HOme", isHome);
       commit("SET_HOME", isHome);
     },
   },

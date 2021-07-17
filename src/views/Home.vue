@@ -1,7 +1,7 @@
 <template>
   <v-container fluid>
-    <HomeScroll1 />
-    <HomeScroll2 />
+    <HomeScroll1 @scrollToElement="scrollToElement"/>
+    <HomeScroll2 class="scroll-2" />
   </v-container>
 </template>
 
@@ -22,9 +22,21 @@ export default {
       handleDrawer: "handleDrawer",
       handleHome: "handleHome",
     }),
+    scrollToElement(item) {
+      const el = document.getElementsByClassName(item.routes)[0];
+
+      if (el) {
+        el.scrollIntoView(item.options);
+      }
+    },
+    scrollToTop() {
+      console.log(window)
+      window.scrollTo(0, 0);
+    },
   },
   created() {
     this.handleHome(false);
+    this.scrollToTop();
   },
 };
 </script>

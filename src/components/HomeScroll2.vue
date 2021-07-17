@@ -3,15 +3,14 @@
     <div
       class="
         template2
-        mt-5
         grid grid-rows-2 grid-cols-1
         gap-4
         lg:grid-cols-2
         items-center
       "
     >
-      <div class="tes text-center">
-        <label>Framework</label>
+      <div class="tes text-center p-10">
+        <h1 class="text-2xl">Framework</h1>
         <ChartDoughnut :chartData="chartDataDoughnut" :options="chartOptions" />
       </div>
       <div class="tes grid justify-center items-center gap-10">

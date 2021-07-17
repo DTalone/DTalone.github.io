@@ -20,7 +20,14 @@
         <div class="tes">
           <CardInfo :data="data" />
         </div>
-        <v-icon class="tes sm:col-span-2" large> mdi-arrow-down </v-icon>
+        <v-btn
+          class="tes icon sm:col-span-2"
+          color="primary"
+          dark
+          @click="scrollToElement('scroll-2', { behavior: 'smooth' })"
+        >
+          <v-icon large> mdi-arrow-down </v-icon>
+        </v-btn>
       </div>
       <div class="gridimage tes">
         <PortoImage />
@@ -49,10 +56,15 @@ export default {
     WelcomeText,
     CardInfo,
   },
+  methods: {
+    scrollToElement(routes, options) {
+      this.$emit("scrollToElement", { routes: routes, options: options });
+    },
+  },
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .gridpusat2 {
   grid-template-rows: 0.5fr 2fr;
   padding: 24px;
@@ -69,5 +81,10 @@ export default {
 .template2 {
   grid-template-rows: 1fr;
   overflow: hidden;
+}
+.icon {
+  &:active {
+    background-color: transparent;
+  }
 }
 </style>
