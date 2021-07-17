@@ -22,10 +22,25 @@
       </div>
       <div class="tes grid justify-center items-center gap-10">
         <CardQuotes :data="data" />
-        <div class="grid grid-cols-3 gap-4 justify-center items-center">
-          <v-icon size="90">mdi-gmail</v-icon>
-          <v-icon size="90">mdi-linkedin</v-icon>
-          <v-icon size="90">mdi-github</v-icon>
+        <div
+          class="
+            icons
+            grid grid-cols-3
+            gap-4
+            justify-between
+            items-center
+            text-center
+          "
+        >
+          <a href="https://www.gmail.com/farisaziz22@gmail.com" target="_blank"
+            ><v-icon size="90" class="logo">mdi-gmail</v-icon></a
+          >
+          <a href="https://www.linkedin.com/in/faziz14/" target="_blank"
+            ><v-icon size="90" class="logo">mdi-linkedin</v-icon></a
+          >
+          <a href="https://www.github.com/DTalone" target="_blank"
+            ><v-icon size="90" class="logo">mdi-github</v-icon></a
+          >
         </div>
       </div>
     </div>
@@ -84,7 +99,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .gridpusat2 {
   grid-template-rows: 0.5fr 2fr;
   padding: 24px;
@@ -101,5 +116,38 @@ export default {
 .template2 {
   grid-template-rows: 1fr;
   overflow: hidden;
+}
+
+.icons a:before {
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  content: " ";
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  background: linear-gradient(45deg, #ff003c, #c648c8);
+  transition: all 265ms ease-out;
+}
+
+.icons a:hover:before {
+  transform: scale(0);
+  transition: all 265ms ease-in;
+}
+
+.icons a:hover .logo {
+  transform: scale(2);
+  -ms-transform: scale(2);
+  -webkit-transform: scale(2);
+  color: #c3f3fb;
+  background: rgb(195, 243, 251);
+  background: linear-gradient(
+    45deg,
+    rgba(195, 243, 251, 1) 15%,
+    rgba(0, 218, 255, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 265ms ease-in;
 }
 </style>
