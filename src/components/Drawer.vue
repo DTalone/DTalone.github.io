@@ -1,7 +1,7 @@
 <template>
   <v-navigation-drawer v-model="drawer" absolute temporary>
     <v-list>
-      <router-link to="/">
+      <router-link to="/" class="router">
         <v-list-item class="pr-2">
           <v-list-item-avatar left>
             <v-img src="@/assets/images/avatar.png"></v-img>
@@ -28,7 +28,7 @@
         &emsp;
         <v-list-item-title>Store</v-list-item-title>
       </v-list-item>
-      <v-list-item link to="/about">
+      <!-- <v-list-item link to="/about">
         <v-list-item-icon>
           <v-icon>mdi-account-box-outline</v-icon>
         </v-list-item-icon>
@@ -41,7 +41,7 @@
         </v-list-item-icon>
         &emsp;
         <v-list-item-title>Contact</v-list-item-title>
-      </v-list-item>      
+      </v-list-item>       -->
     </v-list>
   </v-navigation-drawer>
 </template>
@@ -68,4 +68,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.router {
+  cursor: pointer;
+}
+</style>

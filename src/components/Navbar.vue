@@ -8,7 +8,7 @@
       </v-btn>
     </div>
     <v-spacer class="hidden-md-and-up" />
-    <router-link to="/" tag="div">
+    <router-link to="/" tag="div" class="router">
       <v-img src="@/assets/images/logoprofile.png" id="image" />
     </router-link>
     <v-spacer></v-spacer>
@@ -25,7 +25,7 @@
         </v-icon>
         <span class="ml-5">Store</span>
       </v-btn>
-      <v-btn to="/about">
+      <!-- <v-btn to="/about">
         <v-icon :color="this.$vuetify.theme.themes.light.accent">
           > mdi-account-box-outline
         </v-icon>
@@ -36,7 +36,7 @@
           > mdi-file-account-outline
         </v-icon>
         <span class="ml-5">Contact</span>
-      </v-btn>
+      </v-btn> -->
     </div>
   </v-app-bar>
 </template>
@@ -58,8 +58,11 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 #image {
   width: 150px;
+}
+.router {
+  cursor: pointer;
 }
 </style>

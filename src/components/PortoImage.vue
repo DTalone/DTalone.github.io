@@ -12,7 +12,7 @@ export default {};
 
 <style lang="scss" scoped>
 .card-porto-image {
-  border: 1px solid rgba(117, 45, 11, 0.993);
+  // border: 1px solid rgba(117, 45, 11, 0.993);
 }
 $x:20;  /*  number of row */
 $y:20;  /*  number of columns */
