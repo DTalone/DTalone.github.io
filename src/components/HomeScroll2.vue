@@ -10,7 +10,7 @@
       "
     >
       <div class="tes text-center p-10">
-        <v-card color="#1e1e1e" class="pa-3">
+        <v-card color="#1e1e1e" class="chart-doughnut pa-3">
           <h1 class="text-2xl">Framework</h1>
           <div class="pa-5">
             <ChartDoughnut
@@ -149,5 +149,9 @@ export default {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 265ms ease-in;
+}
+
+.chart-doughnut {
+  border-radius: 10px;
 }
 </style>

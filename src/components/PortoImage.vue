@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 <template>
   <v-container class="card-porto-image">
-    <v-card color="#1e1e1e">
+    <v-card color="#1e1e1e" class="card-image">
       <v-img class="image-porto" src="@/assets/images/porto-profile(blue).png">
       </v-img>
     </v-card>
@@ -68,5 +68,9 @@ $s:0.8; /* speed factor */
       }
     }
   }
+}
+
+.card-image {
+  border-radius: 10px;
 }
 </style>
