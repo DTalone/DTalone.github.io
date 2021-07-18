@@ -5,8 +5,8 @@
         <v-icon class="fas" color="#C3F3FB">{{ data.icon }}</v-icon>
       </div>
       <div class="content">
-        <h3>{{ data.title }}</h3>
-        <p>
+        <h3 class="font-semibold uppercase">{{ data.title }}</h3>
+        <p class="font-normal">
           {{ data.content }}
         </p>
       </div>
@@ -88,14 +88,14 @@ export default {
 .container-box .box .content h3 {
   margin: 0 0 10px;
   padding: 0;
-  color: #05445e;
+  color: #333738;
   font-size: 24px;
 }
 
 .container-box .box .content p {
   margin: 0;
   padding: 0;
-  color: #189ab4;
+  color: #635B6C;
 }
 
 .container-box .box:nth-child(1) .icon {
@@ -103,7 +103,7 @@ export default {
 }
 
 .container-box .box:nth-child(1) {
-  background-color: #b9b7bd;
+  background-color: #C3F3FB;
 }
 
 .container-box .box:nth-child(2) .icon {
@@ -111,6 +111,6 @@ export default {
 }
 
 .container-box .box:nth-child(2) {
-  background-color: #b9b7bd;
+  background-color: #C3F3FB;
 }
 </style>

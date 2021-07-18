@@ -9,7 +9,7 @@
         items-center
       "
     >
-      <div class="tes text-center p-10">
+      <div class="tes text-center pa-5 lg:pa-10">
         <v-card color="#1e1e1e" class="chart-doughnut pa-3">
           <h1 class="text-2xl">Framework</h1>
           <div class="pa-5">
@@ -61,7 +61,7 @@ export default {
       chartDataDoughnut: {
         datasets: [
           {
-            data: [10, 20, 30, 40, 50],
+            data: [2, 2, 1],
             backgroundColor: [
               "#A0DDFF",
               "#758ECD",
@@ -72,20 +72,38 @@ export default {
           },
         ],
         // These labels appear in the legend and in the tooltips when hovering different arcs
-        labels: ["Red", "Yellow", "Blue"],
+        labels: ["Vue", "React", "Angular"],
       },
       chartOptions: {
         responsive: true,
-        plugins: {
-          legend: {
-            position: "top",
-          },
-          title: {
-            display: true,
-            text: "Chart.js Doughnut Chart",
-            padding: {
-              top: 10,
-              bottom: 30,
+        legend: {
+          position: "top",
+          labels: {
+                    fontColor: "white",
+                    fontSize: 18
+                }
+        },
+        title: {
+          display: false,
+          text: "Framework",
+        },
+        animation: {
+          animateScale: true,
+          animateRotate: true,
+        },
+        tooltips: {
+          callbacks: {
+            label: function (tooltipItem, data) {
+              var dataset = data.datasets[tooltipItem.datasetIndex];
+              var total = dataset.data.reduce(function (
+                previousValue,
+                currentValue,
+              ) {
+                return previousValue + currentValue;
+              });
+              var currentValue = dataset.data[tooltipItem.index];
+              var precentage = Math.floor((currentValue / total) * 100 + 0.5);
+              return data.labels[tooltipItem.index] + " (" +precentage + "%)";
             },
           },
         },

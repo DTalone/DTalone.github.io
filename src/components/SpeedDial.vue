@@ -23,7 +23,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      fab: "",
+    };
+  },
+};
 </script>
 
 <style scoped>
