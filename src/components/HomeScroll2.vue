@@ -75,13 +75,7 @@ export default {
         datasets: [
           {
             data: [2, 2, 1],
-            backgroundColor: [
-              "#A0DDFF",
-              "#758ECD",
-              "#C1CEFE",
-              "#7189FF",
-              "#624CAB",
-            ],
+            backgroundColor: ["#43BC84", "#64DCFC", "#CD9494"],
           },
         ],
         // These labels appear in the legend and in the tooltips when hovering different arcs
