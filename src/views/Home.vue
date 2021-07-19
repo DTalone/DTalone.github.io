@@ -59,15 +59,6 @@ export default {
   overflow: hidden;
 }
 
-.v-speed-dial {
-  position: fixed;
-  top: 83%;
-  opacity: 5%;
-  &:hover {
-    opacity: 100%;
-  }
-}
-
 .v-btn--floating {
   position: relative;
 }
