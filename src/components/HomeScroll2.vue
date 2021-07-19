@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid>
+  <v-container class="utama" fluid>
     <div
       class="
         template2
@@ -21,6 +21,19 @@
         </v-card>
       </div>
       <div class="tes grid justify-center items-center gap-10">
+        <div
+          class="
+            icons
+            grid grid-cols-2
+            gap-4
+            justify-between
+            items-center
+            text-center
+          "
+        >
+          <v-btn link to="/project">Project</v-btn>
+          <v-btn light to="/store">Store</v-btn>
+        </div>
         <CardQuotes :data="data" />
         <div
           class="
@@ -79,9 +92,9 @@ export default {
         legend: {
           position: "top",
           labels: {
-                    fontColor: "white",
-                    fontSize: 18
-                }
+            fontColor: "white",
+            fontSize: 18,
+          },
         },
         title: {
           display: false,
@@ -97,13 +110,13 @@ export default {
               var dataset = data.datasets[tooltipItem.datasetIndex];
               var total = dataset.data.reduce(function (
                 previousValue,
-                currentValue,
+                currentValue
               ) {
                 return previousValue + currentValue;
               });
               var currentValue = dataset.data[tooltipItem.index];
               var precentage = Math.floor((currentValue / total) * 100 + 0.5);
-              return data.labels[tooltipItem.index] + " (" +precentage + "%)";
+              return data.labels[tooltipItem.index] + " (" + precentage + "%)";
             },
           },
         },
@@ -171,5 +184,9 @@ export default {
 
 .chart-doughnut {
   border-radius: 10px;
+}
+
+.utama {
+  padding-top: 0px;
 }
 </style>
