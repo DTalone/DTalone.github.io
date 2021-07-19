@@ -74,7 +74,7 @@ export default {
       chartDataDoughnut: {
         datasets: [
           {
-            data: [2, 2, 1],
+            data: [3, 1, 1],
             backgroundColor: ["#43BC84", "#64DCFC", "#CD9494"],
           },
         ],
