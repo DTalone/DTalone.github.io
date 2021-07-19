@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Techship Project Kel. 1",
+        "team":6,
+        "role": "Frontend Developer",
+        "language": "Vue",
+        "description": "Simple CRUD web app for add, update, delete student and enrollment.",
+        "picture":"bnitechship1.png"
+    },
+    {
+        "title": "Connect",
+        "team":3,
+        "role": "Desktop Application Developer",
+        "language": "C#",
+        "description": "Desktop Application to find the connection between node in graph.",
+        "picture":"CONNECT.png"
+    },
+    {
+        "title": "CRT Solver",
+        "team":1,
+        "role": "Full Stack Developer",
+        "language": "Angular, Typescript, Node.js, Express",
+        "description": "Website for Solve Chinese Remainder Problem with step.",
+        "picture":"CRTSolver.png"
+    },
+    {
+        "title": "Map Iki?",
+        "team":2,
+        "role": "Backend Developer",
+        "language": "Go",
+        "description": "Project to find the shortest way from A to B using A* algorithm with Map Javascript API.",
+        "picture":"MapIki.png"
+    },
+    {
+        "title": "Personal Website",
+        "team":1,
+        "role": "Frontend Developer",
+        "language": "HTML, CSS, Javascript",
+        "description": "Personal Website for Portofolio.",
+        "picture":"private.png"
+    },
+    {
+        "title": "SimSimSimi Chatbot",
+        "team":3,
+        "role": "Frontend Developer",
+        "language": "React",
+        "description": "Chatbot for scheduling deadline of assignments.",
+        "picture":"SimSimSimi.png"
+    },
+    {
+        "title": "Sort API",
+        "team":1,
+        "role": "Backend Developer",
+        "language": "Flask, MySQL",
+        "description": "API for sorting data from CSV file with specific column.",
+        "picture":"sortapi.png"
+    }
+]

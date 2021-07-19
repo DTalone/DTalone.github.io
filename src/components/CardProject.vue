@@ -1,10 +1,10 @@
 <template>
   <div class="card">
-    <div class="card-back">tis</div>
+    <div class="card-back">{{ item.description }}</div>
     <div class="card-front">
       <v-img
         class="image"
-        src="@/assets/documentations/sortapi.png"
+        :src="require(`@/assets/documentations/${item.picture}`)"
         max-height="450"
         contain
       ></v-img>
@@ -13,7 +13,12 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: ["item"],
+  created() {
+    console.log(this.item.picture);
+  },
+};
 </script>
 
 <style lang="scss" scoped>
