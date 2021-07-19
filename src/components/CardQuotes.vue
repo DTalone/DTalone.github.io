@@ -1,8 +1,8 @@
 <template>
   <div class="box">
-    <i class="fas fa-quote-left fa2"></i>
+    <v-icon class="fas fa2">mdi-format-quote-close</v-icon>
     <div class="text">
-      <i class="fas fa-quote-right fa1"></i>
+      <v-icon class="fas fa1">mdi-format-quote-open</v-icon>
       <div>
         <h3>{{ data.title }}</h3>
         <p>

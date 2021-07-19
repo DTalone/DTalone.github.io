@@ -14,11 +14,8 @@
         <div class="welcome sm:col-span-2">
           <WelcomeText />
         </div>
-        <div class="tes">
-          <CardInfo :data="data" />
-        </div>
-        <div class="tes">
-          <CardInfo :data="data" />
+        <div class="tes" v-for="item in data" :key="item.title">
+          <CardInfo :data="item" />
         </div>
         <v-btn
           class="tes icon sm:col-span-2"
@@ -44,11 +41,20 @@ import CardInfo from "@/components/CardInfo.vue";
 export default {
   data() {
     return {
-      data: {
-        icon: "mdi-account-circle-outline",
-        title: "Profile",
-        content: "lorem ipsum kagabungungugngun alas fdadkf",
-      },
+      data: [
+        {
+          icon: "mdi-account-circle-outline",
+          title: "Profile",
+          content:
+            "Hello, My name is Faris Aziz, you can call me Faziz. I study in Informatics Engineering",
+        },
+        {
+          icon: "mdi-laptop",
+          title: "Language",
+          content:
+            "HTML, CSS, Javascript, Go, Vue.js, Nuxt.js, React.js",
+        },
+      ],
     };
   },
   components: {

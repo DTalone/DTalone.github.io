@@ -68,8 +68,8 @@ export default {
   data() {
     return {
       data: {
-        title: "Quote of the Day",
-        content: "Lorem ipsumadfalkdsfn asfdklanflasdnf asdfklna dfsln",
+        title: "Personal Motto",
+        content: "... Light upon light! Allah guides whoever He wills to His light ... (Q24:35)",
       },
       chartDataDoughnut: {
         datasets: [
