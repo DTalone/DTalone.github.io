@@ -45,7 +45,7 @@
             text-center
           "
         >
-          <a href="https://www.gmail.com/farisaziz22@gmail.com" target="_blank"
+          <a href="https://mail.google.com/mail/u/0/?fs=1&to=13519065@std.stei.itb.ac.id&tf=cm&su=[PORTO]%20Connection" target="_blank"
             ><v-icon size="90" class="logo">mdi-gmail</v-icon></a
           >
           <a href="https://www.linkedin.com/in/faziz14/" target="_blank"
