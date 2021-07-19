@@ -1,6 +1,14 @@
 <template>
   <div class="card">
-    <div class="card-back">{{ item.description }}</div>
+    <div class="card-back pl-3">
+      Language&ensp;&nbsp;: {{ item.language }}
+      <br />
+      Team of&emsp;&ensp;: {{ item.team }}
+      <br />
+      Role&emsp;&emsp;&emsp; : {{ item.role }}
+      <br />
+      Description: {{ item.description }}
+    </div>
     <div class="card-front">
       <v-img
         class="image"
