@@ -13,13 +13,13 @@
     </router-link>
     <v-spacer></v-spacer>
     <div class="hidden-sm-and-down">
-      <v-btn to="/project">
+      <v-btn link to="/project" depressed>
         <v-icon :color="this.$vuetify.theme.themes.light.accent">
           > mdi-folder-network-outline
         </v-icon>
         <span class="ml-5">Projects</span>
       </v-btn>
-      <v-btn to="/store">
+      <v-btn to="/store" depressed>
         <v-icon :color="this.$vuetify.theme.themes.light.accent">
           > mdi-cart-outline
         </v-icon>
