@@ -24,7 +24,7 @@ $small: 640px;
 .box {
   background-color: transparent;
   border-radius: 3px;
-  color: #eeebe3;
+  color: white;
   //   transform: translate(-50%, -50%);
   width: 400px;
   height: 300px;
