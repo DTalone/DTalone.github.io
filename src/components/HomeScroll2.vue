@@ -31,8 +31,8 @@
             text-center
           "
         >
-          <v-btn link to="/project">Project</v-btn>
-          <v-btn light to="/store">Store</v-btn>
+          <v-btn link to="/project" class="project">Project</v-btn>
+          <v-btn light to="/store" class="store">Store</v-btn>
         </div>
         <CardQuotes :data="data" />
         <div
@@ -45,7 +45,9 @@
             text-center
           "
         >
-          <a href="https://mail.google.com/mail/u/0/?fs=1&to=13519065@std.stei.itb.ac.id&tf=cm&su=[PORTO]%20Connection" target="_blank"
+          <a
+            href="https://mail.google.com/mail/u/0/?fs=1&to=13519065@std.stei.itb.ac.id&tf=cm&su=[PORTO]%20Connection"
+            target="_blank"
             ><v-icon size="90" class="logo">mdi-gmail</v-icon></a
           >
           <a href="https://www.linkedin.com/in/faziz14/" target="_blank"
@@ -69,7 +71,8 @@ export default {
     return {
       data: {
         title: "Personal Motto",
-        content: "... Light upon light! Allah guides whoever He wills to His light ... (Q24:35)",
+        content:
+          "... Light upon light! Allah guides whoever He wills to His light ... (Q24:35)",
       },
       chartDataDoughnut: {
         datasets: [
@@ -125,6 +128,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+$small: 640px;
+
 .gridpusat2 {
   grid-template-rows: 0.5fr 2fr;
   padding: 24px;
@@ -140,7 +145,6 @@ export default {
 
 .template2 {
   grid-template-rows: 1fr;
-  overflow: hidden;
 }
 
 .icons a:before {
@@ -171,6 +175,11 @@ export default {
     rgba(195, 243, 251, 1) 15%,
     rgba(0, 218, 255, 1) 100%
   );
+  @media screen and (max-width: $small) {
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+  }
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 265ms ease-in;
@@ -182,5 +191,23 @@ export default {
 
 .utama {
   padding-top: 0px;
+  overflow: hidden;
+}
+.store {
+  @media screen and (max-width: $small) {
+    background-color: #c3f3fb !important;
+    color: #1e1e1e;
+  }
+}
+.project {
+  @media screen and (max-width: $small) {
+    color: #c3f3fb;
+  }
+}
+
+.logo {
+    @media screen and (max-width: $small) {
+    color: #c3f3fb;
+  }
 }
 </style>

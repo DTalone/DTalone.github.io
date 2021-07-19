@@ -48,6 +48,11 @@ $small: 640px;
     background: transparent;
     border-top: 20px solid #eeebe3;
     border-left: 20px solid #eeebe3;
+      @media screen and (max-width: $small) {
+    //do Smth
+    border-top: 20px solid #c3f3fb;
+    border-left: 20px solid #c3f3fb;
+  }
     box-sizing: border-box;
   }
   &:after {
@@ -59,20 +64,26 @@ $small: 640px;
     height: 100%;
     border-bottom: 20px solid #eeebe3;
     border-right: 20px solid #eeebe3;
+    @media screen and (max-width: $small) {
+    //do Smth
+    border-bottom: 20px solid #c3f3fb;
+    border-right: 20px solid #c3f3fb;
+  }
     box-sizing: border-box;
   }
   .fas {
     font-size: 25px;
     height: 50px;
     width: 50px;
+    line-height: 50px !important;
+    background-color: #eeebe3;
     @media screen and (max-width: $small) {
       //do Smth
       font-size: 20px;
       width: 30px;
       height: 30px;
+      background-color: #c3f3fb;
     }
-    line-height: 50px !important;
-    background-color: #eeebe3;
     color: #1e1e1e;
   }
   .fa2 {
