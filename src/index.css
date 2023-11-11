@@ -4,10 +4,10 @@
 
 @font-face {
   font-family: ketika;
-  src: url(Ketika-Light.ttf);
+  src: url("/Ketika-Light.ttf");
 }
 
 @font-face {
   font-family: walton;
-  src: url(Walton-personal_use.ttf);
+  src: url("/Walton-personal_use.ttf");
 }
