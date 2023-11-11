@@ -1,3 +1,11 @@
+h1 {
+  font-family: walton, fantasy;
+}
+
+p {
+  font-family: ketika, cursive;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
