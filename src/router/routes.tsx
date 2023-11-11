@@ -1,17 +1,22 @@
 import App from "../pages/App";
+import ComingSoon from "../pages/ComingSoon";
 import Home from "../pages/Home";
 
 const routes = [
   {
     path: "/",
+    element: <ComingSoon />,
+  },
+  {
+    path: "/hehe",
     element: <Home />,
   },
   {
-    path: "/app",
+    path: "/hehehe",
     element: <App />,
   },
   {
-    path: "/tes",
+    path: "/hehehehe",
     element: <div>TESSSS</div>,
   },
 ];

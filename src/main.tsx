@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import router from "./route/index.ts";
+import router from "./router/index.ts";
 import { RouterProvider } from "react-router-dom";
 import Footer from "./components/Footer/index.tsx";
 import Container from "./components/Container/index.tsx";
