@@ -1,5 +1,7 @@
+import "./style.css";
+
 function Home() {
-  return <div>HOME</div>;
+  return <div className="background bg-black-light font-walton">HOME</div>;
 }
 
 export default Home;
