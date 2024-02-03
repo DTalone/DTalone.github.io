@@ -58,8 +58,7 @@ function Home() {
             Experience
           </h2>
         </div>
-        <div className="flex flex-col items-center relative">
-          <div className="border-l-2 sm:border-l-4 border-primary-100 h-5/6 absolute inset-y-9 base:max-sm:-left-[14px]" />
+        <div className="flex flex-col items-center">
           {experiences.map((experience, index) => {
             if (index % 2 === 0)
               return <CompanyCard company={experience} position="left" />;

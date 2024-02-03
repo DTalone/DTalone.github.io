@@ -29,18 +29,22 @@ export default function CompanyCard({ company, position }: CompanyCardProps) {
   return (
     <div
       className={`border-2 border-neutral-900 rounded p-2 sm:p-5 font-krub text-neutral-100 w-72 sm:w-96 flex flex-col gap-5 relative my-2 ${
-        position === "left" ? "sm:mr-[475.5px]" : "ml-[20px] sm:ml-[475.5px]"
+        position === "left"
+          ? "ml-[20px] sm:mr-[491.5px]"
+          : "ml-[20px] sm:ml-[480.5px]"
       }`}
     >
       {position === "left" && (
         <>
-          <div className="border-l-2 sm:border-l-4 border-primary-100 absolute h-full  base:max-sm:-left-[20px]  sm:-right-[50px]" />
-          <div className="rounded-full border-2 sm:border-4 border-primary bg-primary absolute w-7 sm:w-10 h-7 sm:h-10 base:max-sm:-left-[33px] sm:-right-[68px] inset-y-1/2" />
+          <div className="border-l-2 sm:border-l-4 border-primary-100 absolute h-full  base:max-sm:-left-[30px]  sm:-right-[50px]" />
+          <div className="border-l-2 sm:border-l-4 border-primary-100 absolute h-6  base:max-sm:-left-[30px]  sm:-right-[50px] -bottom-7 sm:-bottom-10" />
+          <div className="rounded-full border-2 sm:border-4 border-primary bg-primary absolute w-7 sm:w-10 h-7 sm:h-10 base:max-sm:-left-[43px] sm:-right-[68px] inset-y-1/2" />
         </>
       )}
       {position === "right" && (
         <>
           <div className="border-l-2 sm:border-l-4 border-primary-100 absolute h-full -left-[30px] sm:-left-[50px]" />
+          <div className="border-l-2 sm:border-l-4 border-primary-100 absolute h-6 -left-[30px] sm:-left-[50px] -bottom-7 sm:-bottom-10" />
           <div className="rounded-full border-2 sm:border-4 border-primary bg-primary absolute w-7 h-7 sm:w-10 sm:h-10 -left-[43px] sm:-left-[68px] inset-y-1/2" />
         </>
       )}
