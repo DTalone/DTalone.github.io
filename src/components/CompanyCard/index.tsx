@@ -49,7 +49,7 @@ export default function CompanyCard({ company, position }: CompanyCardProps) {
         </>
       )}
 
-      <div className="bg-white rounded-full overflow-hidden w-12 h-12 absolute right-1 top-1 flex justify-center items-center">
+      <div className="bg-white rounded-full overflow-hidden w-6 h-6 sm:w-12 sm:h-12 absolute right-1 top-1 flex justify-center items-center">
         <img className="object-fill" src={`/${logo}`} alt={`logo_${name}`} />
       </div>
       <div className="text-center font-bold">

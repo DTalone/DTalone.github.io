@@ -3,6 +3,7 @@ import CompanyCard from "../../components/CompanyCard";
 import Google from "../../components/Google";
 import Instagram from "../../components/Instagram";
 import LinkedIn from "../../components/LinkedIn";
+import Section from "../../components/Section";
 import SocialMediaButton from "../../components/SocialMediaButton";
 import "./style.css";
 
@@ -52,12 +53,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="p-10 flex flex-col gap-5">
-        <div className="text-center sm:text-left">
-          <h2 className="font-koulen text-neutral-100 text-3xl sm:text-5xl">
-            Experience
-          </h2>
-        </div>
+      <Section title={"Experience"}>
         <div className="flex flex-col items-center">
           {experiences.map((experience, index) => {
             if (index % 2 === 0)
@@ -65,7 +61,22 @@ function Home() {
             return <CompanyCard company={experience} position="right" />;
           })}
         </div>
-      </div>
+      </Section>
+      <Section title={"Projects"}>
+        <div></div>
+      </Section>
+      <Section title={"Skills"}>
+        <div></div>
+      </Section>
+      <Section title={"Education"}>
+        <div></div>
+      </Section>
+      <Section title={"Volunteer"}>
+        <div></div>
+      </Section>
+      <Section title={"Awards"}>
+        <div></div>
+      </Section>
     </>
   );
 }
