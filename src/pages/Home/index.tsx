@@ -12,7 +12,7 @@ function Home() {
         <CardSection title="Summary">
           <div className="md:flex md:items-center gap-5">
             <div className="w-full md:w-1/2">
-              <p className="font-ketika text-white text-3xl text-justify py-5">
+              <p className="font-krub text-white text-3xl text-justify py-5">
                 A final-year college student in Bandung Institute of Technology.
                 I am passionate about leadership, web development, and social
                 activity. Practical, adventurous, adaptable are three words to

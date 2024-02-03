@@ -11,7 +11,9 @@ function LightBoard({ height = "300px", width = "700px" }: LightBoardProps) {
       style={{ height: height, width: width }}
     >
       <div className="neon-border">
-        <h1 className="neon-text font-walton text-7xl text-center">Welcome</h1>
+        <h1 className="neon-text font-kronaone text-7xl text-center">
+          Welcome
+        </h1>
       </div>
     </div>
   );

@@ -13,6 +13,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/koulen": "^5.0.18",
+    "@fontsource/krona-one": "^5.0.8",
+    "@fontsource/krub": "^5.0.8",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
     "react": "^18.2.0",
