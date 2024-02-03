@@ -6,12 +6,10 @@ import "./style.css";
 
 function Home() {
   return (
-    <div className="flex">
+    <div className="flex flex-col-reverse sm:flex-row">
       <div className="p-10">
-        <div className="">
-          <div className="rounded-full overflow-hidden border-2 border-neutral-600">
-            <img src="/foto.png" alt="foto-faziz" />
-          </div>
+        <div className="rounded-full overflow-hidden border-2 border-neutral-600">
+          <img src="/foto.png" alt="foto-faziz" />
         </div>
         <div className="flex justify-center gap-5 p-5">
           <SocialMediaButton
@@ -30,11 +28,13 @@ function Home() {
       </div>
       <div className="grow flex flex-col ">
         <div className="text-center  p-5">
-          <h1 className="font-kronaone text-neutral-100 text-9xl">Welcome</h1>
+          <h1 className="font-kronaone text-neutral-100 text-5xl sm:text-9xl">
+            Welcome
+          </h1>
         </div>
         <div className="p-5 flex justify-center">
           <div className="max-w-md min-w-64 min-h-20 rounded bg-neutral-600 py-5 px-10 text-justify indent-5 shadow-card">
-            <p className="font-krub text-2xl text-neutral-100">
+            <p className="font-krub sm:text-2xl text-neutral-100">
               I am passionate about leadership, web development, and social
               activity. Practical, adventurous, adaptable are three words to
               describe my personality. My team members always counts on me to
@@ -43,7 +43,7 @@ function Home() {
           </div>
         </div>
         <div className="p-5 text-center">
-          <h2 className="font-kronaone text-neutral-100 text-6xl">
+          <h2 className="font-kronaone text-neutral-100 text-2xl sm:text-6xl">
             F<span className="text-neutral-600">aris</span> Aziz
           </h2>
         </div>
