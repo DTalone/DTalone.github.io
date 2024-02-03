@@ -31,6 +31,9 @@ export default {
       borderRadius: {
         DEFAULT: "20px",
       },
+      screens: {
+        base: "0px",
+      },
     },
     fontFamily: {
       kronaone: ["Krona One", "fantasy"],
