@@ -184,10 +184,10 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.22.5"
 
-"@babel/runtime@^7.12.5":
-  "integrity" "sha512-mM8eg4yl5D6i3lu2QKPuPH4FArvJ8KhTofbE7jwMUv9KX5mBvwPAqnV3MlyBNqdp9RyRKP6Yck8TrfYrPvX3bg=="
-  "resolved" "https://registry.npmjs.org/@babel/runtime/-/runtime-7.23.2.tgz"
-  "version" "7.23.2"
+"@babel/runtime@^7.12.5", "@babel/runtime@^7.23.8":
+  "integrity" "sha512-0CX6F+BI2s9dkUqr08KFrAIZgNFj75rdBU/DjCyYLIaV/quFjkk6T+EJ2LkZHyZTbEV4L5p97mNkUsHl2wLFAw=="
+  "resolved" "https://registry.npmjs.org/@babel/runtime/-/runtime-7.23.9.tgz"
+  "version" "7.23.9"
   dependencies:
     "regenerator-runtime" "^0.14.0"
 
@@ -1720,6 +1720,15 @@
   "version" "6.18.0"
   dependencies:
     "@remix-run/router" "1.11.0"
+
+"react-social-icons@^6.10.0":
+  "integrity" "sha512-b4sbTE7vZBYF2yIa/ObMb6ZfMexnMF+OnciLv1ujzaioiBabZjSMeYS9Pp4Kh6BAeYejF/QByctns4abqy37rA=="
+  "resolved" "https://registry.npmjs.org/react-social-icons/-/react-social-icons-6.10.0.tgz"
+  "version" "6.10.0"
+  dependencies:
+    "@babel/runtime" "^7.23.8"
+    "react" "^18.2.0"
+    "react-dom" "^18.2.0"
 
 "react@^18.2.0", "react@>=16.8":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
