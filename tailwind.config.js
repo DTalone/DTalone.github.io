@@ -26,6 +26,7 @@ export default {
       boxShadow: {
         button: `11px 10px 15px -3px ${neutral["900"]}`,
         buttonHover: `0px 8px 9px -4px ${neutral["900"]}, 0px 4px 18px 0px ${neutral["900"]}`,
+        card: `0px 10px 15px -3px ${neutral["900"]}`,
       },
       borderRadius: {
         DEFAULT: "20px",
