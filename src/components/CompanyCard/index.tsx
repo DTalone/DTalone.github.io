@@ -23,14 +23,17 @@ interface CompanyCardProps {
   position: string;
 }
 
-export default function CompanyCard({ company, position }: CompanyCardProps) {
+export default function CompanyCard({
+  company,
+  position,
+}: Readonly<CompanyCardProps>) {
   const { logo, name, location, jobs } = company;
 
   return (
     <div
       className={`border-2 border-neutral-900 rounded p-2 sm:p-5 font-krub text-neutral-100 w-72 sm:w-96 flex flex-col gap-5 relative my-2 ${
         position === "left"
-          ? "ml-[20px] sm:mr-[491.5px]"
+          ? "ml-[20px] sm:mr-[493.5px]"
           : "ml-[20px] sm:ml-[480.5px]"
       }`}
     >
@@ -59,7 +62,7 @@ export default function CompanyCard({ company, position }: CompanyCardProps) {
       <div className="flex flex-col gap-2">
         {jobs.map((job) => {
           return (
-            <div>
+            <div key={`${job.dateStart}-${job.dateEnd}`}>
               <h5 className="font-semibold text-xs sm:text-base">
                 {job.position}
               </h5>
@@ -69,7 +72,7 @@ export default function CompanyCard({ company, position }: CompanyCardProps) {
               <ul>
                 {job.descriptions.map((description) => {
                   return (
-                    <li>
+                    <li key={description}>
                       <p className="font-regular text-xs sm:text-sm">
                         - {description}
                       </p>

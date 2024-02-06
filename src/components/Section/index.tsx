@@ -3,7 +3,7 @@ interface SectionProps {
   children: React.ReactNode;
 }
 
-export default function Section({ title, children }: SectionProps) {
+export default function Section({ title, children }: Readonly<SectionProps>) {
   return (
     <div className="p-10 flex flex-col gap-5" id={title}>
       <div className="text-center sm:text-left">

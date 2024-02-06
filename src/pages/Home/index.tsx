@@ -57,18 +57,30 @@ function Home() {
         <div className="flex flex-col items-center">
           {experiences.map((experience, index) => {
             if (index % 2 === 0)
-              return <CompanyCard company={experience} position="left" />;
-            return <CompanyCard company={experience} position="right" />;
+              return (
+                <CompanyCard
+                  company={experience}
+                  position="left"
+                  key={experience.name}
+                />
+              );
+            return (
+              <CompanyCard
+                company={experience}
+                position="right"
+                key={experience.name}
+              />
+            );
           })}
         </div>
+      </Section>
+      <Section title={"Education"}>
+        <div></div>
       </Section>
       <Section title={"Projects"}>
         <div></div>
       </Section>
       <Section title={"Skills"}>
-        <div></div>
-      </Section>
-      <Section title={"Education"}>
         <div></div>
       </Section>
       <Section title={"Volunteer"}>
