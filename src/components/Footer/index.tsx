@@ -1,9 +1,11 @@
-import "./style.css";
+import Typography from "../Typography";
 
 function Footer() {
   return (
-    <div className="footer font-koulen bg-black flex items-center justify-center bg-neutral-300">
-      <p className="text-center text-neutral-900">Faziz - 2024</p>
+    <div className="h-[10vh] flex items-center justify-center bg-neutral-300">
+      <Typography type="p" className="font-koulen text-neutral-900 text-center">
+        Faziz - 2024
+      </Typography>
     </div>
   );
 }

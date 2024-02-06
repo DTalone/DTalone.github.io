@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 import {
   primary,
@@ -31,14 +32,17 @@ export default {
       borderRadius: {
         DEFAULT: "20px",
       },
-      screens: {
-        base: "0px",
-      },
     },
     fontFamily: {
       kronaone: ["Krona One", "fantasy"],
       krub: ["Krub", "sans-serif"],
       koulen: ["Koulen", "cursive"],
+    },
+    screens: {
+      base: "0px",
+      xs: "475px",
+      ...defaultTheme.screens,
+      "3xl": "1600px",
     },
   },
   plugins: [],

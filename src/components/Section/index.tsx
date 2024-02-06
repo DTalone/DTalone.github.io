@@ -1,3 +1,5 @@
+import Typography from "../Typography";
+
 interface SectionProps {
   title: string;
   children: React.ReactNode;
@@ -7,9 +9,9 @@ export default function Section({ title, children }: Readonly<SectionProps>) {
   return (
     <div className="p-10 flex flex-col gap-5" id={title}>
       <div className="text-center sm:text-left">
-        <h2 className="font-koulen text-neutral-100 text-3xl sm:text-5xl">
+        <Typography type="h3" className="">
           {title}
-        </h2>
+        </Typography>
       </div>
       {children}
     </div>

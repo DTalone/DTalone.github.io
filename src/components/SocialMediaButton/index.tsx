@@ -10,7 +10,11 @@ export default function SocialMediaButton({
     <button
       className={`
                   rounded 
-                  w-20 
+                  w-11 
+                  base:max-sm:w-12
+                  sm-max-md:w-14 
+                  md:max-lg:w-16 
+                  lg:w-20 
                   p-1 
                   text-neutral-800 
                   bg-neutral-200 
