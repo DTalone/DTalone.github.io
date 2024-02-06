@@ -146,8 +146,9 @@ export const skills = {
 
 export const educations = [
   {
-    school: "SMA Negeri 8 Jakarta",
+    name: "SMA Negeri 8 Jakarta",
     major: "IPA",
+    logo: "sma8.png",
     location: {
       city: "South Jakarta",
       province: "Jakarta",
@@ -162,8 +163,9 @@ export const educations = [
     ],
   },
   {
-    school: "SMA Negeri 8 Jakarta",
+    name: "SMA Negeri 8 Jakarta",
     major: "Teknik Informatika",
+    logo: "itb.png",
     location: {
       city: "South Jakarta",
       province: "Jakarta",

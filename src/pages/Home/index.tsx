@@ -1,8 +1,9 @@
-import { experiences } from "../../assets/constant";
+import { educations, experiences } from "../../assets/constant";
 import CompanyCard from "../../components/CompanyCard";
 import Google from "../../components/Google";
 import Instagram from "../../components/Instagram";
 import LinkedIn from "../../components/LinkedIn";
+import SchoolCard from "../../components/SchoolCard";
 import Section from "../../components/Section";
 import SocialMediaButton from "../../components/SocialMediaButton";
 import "./style.css";
@@ -75,7 +76,21 @@ function Home() {
         </div>
       </Section>
       <Section title={"Education"}>
-        <div></div>
+        <div className="flex base:max-sm:flex-col justify-center items-center gap-5">
+          {educations.map((education, i, row) => {
+            let order: "FIRST" | "LAST" | "SINGLE" | "" = "";
+            if (i === 0 && i + 1 === row.length) order = "SINGLE";
+            else if (i + 1 === row.length) order = "LAST";
+            else if (i === 0) order = "FIRST";
+            return (
+              <SchoolCard
+                school={education}
+                itemOrder={order}
+                key={education.name}
+              />
+            );
+          })}
+        </div>
       </Section>
       <Section title={"Projects"}>
         <div></div>

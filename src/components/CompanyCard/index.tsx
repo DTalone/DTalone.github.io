@@ -1,22 +1,4 @@
-interface Location {
-  city: string;
-  province: string;
-  country: string;
-}
-
-interface JobDesc {
-  position: string;
-  dateStart: string;
-  dateEnd: string;
-  descriptions: string[];
-}
-
-interface Company {
-  name: string;
-  location: Location;
-  jobs: JobDesc[];
-  logo: string;
-}
+import { Company } from "../../types";
 
 interface CompanyCardProps {
   company: Company;
