@@ -10,12 +10,12 @@ export const experiences = [
     jobs: [
       {
         position: "Associate Frontend Engineer",
-        dateStart: "January 2023",
-        dateEnd: "January 2024",
+        dateStart: "January 2021",
+        dateEnd: "January 2022",
         descriptions: [
-          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi",
-          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi",
-          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi",
+          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi1",
+          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi2",
+          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi3",
         ],
       },
     ],
@@ -31,12 +31,12 @@ export const experiences = [
     jobs: [
       {
         position: "Associate Frontend Engineer",
-        dateStart: "January 2023",
-        dateEnd: "January 2024",
+        dateStart: "January 2021",
+        dateEnd: "January 2022",
         descriptions: [
-          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi",
-          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi",
-          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi",
+          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi1",
+          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi2",
+          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi3",
         ],
       },
       {
@@ -44,9 +44,9 @@ export const experiences = [
         dateStart: "January 2023",
         dateEnd: "January 2024",
         descriptions: [
-          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi",
-          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi",
-          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi",
+          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi1",
+          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi2",
+          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi3",
         ],
       },
     ],
@@ -65,9 +65,9 @@ export const experiences = [
         dateStart: "January 2023",
         dateEnd: "January 2024",
         descriptions: [
-          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi",
-          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi",
-          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi",
+          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi1",
+          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi2",
+          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi3",
         ],
       },
     ],
@@ -86,9 +86,9 @@ export const experiences = [
         dateStart: "January 2023",
         dateEnd: "January 2024",
         descriptions: [
-          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi",
-          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi",
-          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi",
+          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi1",
+          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi2",
+          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi3",
         ],
       },
     ],
@@ -107,9 +107,9 @@ export const experiences = [
         dateStart: "January 2023",
         dateEnd: "January 2024",
         descriptions: [
-          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi",
-          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi",
-          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi",
+          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi1",
+          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi2",
+          "Lorem Ipsum Dolor Sit Amet Huhu Hahaa Hihi3",
         ],
       },
     ],
@@ -204,13 +204,13 @@ export const educations = [
     dateStart: "January 2023",
     dateEnd: "January 2024",
     descriptions: [
-      "Lorem ipsum dolor sit amet huhu ahaha hihi",
-      "Lorem ipsum dolor sit amet huhu ahaha hihi",
-      "Lorem ipsum dolor sit amet huhu ahaha hihi",
+      "Lorem ipsum dolor sit amet huhu ahaha hihi1",
+      "Lorem ipsum dolor sit amet huhu ahaha hihi2",
+      "Lorem ipsum dolor sit amet huhu ahaha hihi3",
     ],
   },
   {
-    name: "SMA Negeri 8 Jakarta",
+    name: "Institut Teknologi Bandung",
     major: "Teknik Informatika",
     logo: "itb.png",
     location: {
@@ -221,9 +221,9 @@ export const educations = [
     dateStart: "January 2023",
     dateEnd: "January 2024",
     descriptions: [
-      "Lorem ipsum dolor sit amet huhu ahaha hihi",
-      "Lorem ipsum dolor sit amet huhu ahaha hihi",
-      "Lorem ipsum dolor sit amet huhu ahaha hihi",
+      "Lorem ipsum dolor sit amet huhu ahaha hihi1",
+      "Lorem ipsum dolor sit amet huhu ahaha hihi2",
+      "Lorem ipsum dolor sit amet huhu ahaha hihi3",
     ],
   },
 ];
@@ -243,15 +243,15 @@ export const volunteers = [
         dateStart: "January 2023",
         dateEnd: "January 2023",
         descriptions: [
-          "Lorem ipsum dolor sit amet huhu ahaha hihi",
-          "Lorem ipsum dolor sit amet huhu ahaha hihi",
-          "Lorem ipsum dolor sit amet huhu ahaha hihi",
+          "Lorem ipsum dolor sit amet huhu ahaha hihi1",
+          "Lorem ipsum dolor sit amet huhu ahaha hihi2",
+          "Lorem ipsum dolor sit amet huhu ahaha hihi3",
         ],
       },
     ],
   },
   {
-    organization: "HMIF ITB",
+    organization: "Ganesha IoTech",
     logo: "x.png",
     location: {
       city: "South Jakarta",
@@ -264,15 +264,15 @@ export const volunteers = [
         dateStart: "January 2023",
         dateEnd: "January 2023",
         descriptions: [
-          "Lorem ipsum dolor sit amet huhu ahaha hihi",
-          "Lorem ipsum dolor sit amet huhu ahaha hihi",
-          "Lorem ipsum dolor sit amet huhu ahaha hihi",
+          "Lorem ipsum dolor sit amet huhu ahaha hihi1",
+          "Lorem ipsum dolor sit amet huhu ahaha hihi2",
+          "Lorem ipsum dolor sit amet huhu ahaha hihi3",
         ],
       },
     ],
   },
   {
-    organization: "HMIF ITB",
+    organization: "XXXXXXX",
     logo: "x.png",
     location: {
       city: "South Jakarta",
@@ -285,15 +285,15 @@ export const volunteers = [
         dateStart: "January 2023",
         dateEnd: "January 2023",
         descriptions: [
-          "Lorem ipsum dolor sit amet huhu ahaha hihi",
-          "Lorem ipsum dolor sit amet huhu ahaha hihi",
-          "Lorem ipsum dolor sit amet huhu ahaha hihi",
+          "Lorem ipsum dolor sit amet huhu ahaha hihi1",
+          "Lorem ipsum dolor sit amet huhu ahaha hihi2",
+          "Lorem ipsum dolor sit amet huhu ahaha hihi3",
         ],
       },
     ],
   },
   {
-    organization: "HMIF ITB",
+    organization: "XXXXXX3X",
     logo: "x.png",
     location: {
       city: "South Jakarta",
@@ -306,15 +306,15 @@ export const volunteers = [
         dateStart: "January 2023",
         dateEnd: "January 2023",
         descriptions: [
-          "Lorem ipsum dolor sit amet huhu ahaha hihi",
-          "Lorem ipsum dolor sit amet huhu ahaha hihi",
-          "Lorem ipsum dolor sit amet huhu ahaha hihi",
+          "Lorem ipsum dolor sit amet huhu ahaha hihi1",
+          "Lorem ipsum dolor sit amet huhu ahaha hihi2",
+          "Lorem ipsum dolor sit amet huhu ahaha hihi3",
         ],
       },
     ],
   },
   {
-    organization: "HMIF ITB",
+    organization: "XXXXXX2",
     logo: "x.png",
     location: {
       city: "South Jakarta",
@@ -327,15 +327,15 @@ export const volunteers = [
         dateStart: "January 2023",
         dateEnd: "January 2023",
         descriptions: [
-          "Lorem ipsum dolor sit amet huhu ahaha hihi",
-          "Lorem ipsum dolor sit amet huhu ahaha hihi",
-          "Lorem ipsum dolor sit amet huhu ahaha hihi",
+          "Lorem ipsum dolor sit amet huhu ahaha hihi1",
+          "Lorem ipsum dolor sit amet huhu ahaha hihi2",
+          "Lorem ipsum dolor sit amet huhu ahaha hihi3",
         ],
       },
     ],
   },
   {
-    organization: "HMIF ITB",
+    organization: "XXXXXX1",
     logo: "x.png",
     location: {
       city: "South Jakarta",
@@ -348,9 +348,9 @@ export const volunteers = [
         dateStart: "January 2023",
         dateEnd: "January 2023",
         descriptions: [
-          "Lorem ipsum dolor sit amet huhu ahaha hihi",
-          "Lorem ipsum dolor sit amet huhu ahaha hihi",
-          "Lorem ipsum dolor sit amet huhu ahaha hihi",
+          "Lorem ipsum dolor sit amet huhu ahaha hihi1",
+          "Lorem ipsum dolor sit amet huhu ahaha hihi2",
+          "Lorem ipsum dolor sit amet huhu ahaha hihi3",
         ],
       },
     ],
@@ -368,9 +368,40 @@ export const awards = [
     },
     date: "January 2023",
     descriptions: [
-      "Lorem ipsum dolor sit amet huhu ahaha hihi",
-      "Lorem ipsum dolor sit amet huhu ahaha hihi",
-      "Lorem ipsum dolor sit amet huhu ahaha hihi",
+      "Lorem ipsum dolor sit amet huhu ahaha hihi1",
+      "Lorem ipsum dolor sit amet huhu ahaha hihi2",
+      "Lorem ipsum dolor sit amet huhu ahaha hihi3",
     ],
+  },
+];
+
+export const navigations = [
+  {
+    name: "Home",
+    id: "home",
+  },
+  {
+    name: "Experience",
+    id: "experience",
+  },
+  {
+    name: "Education",
+    id: "education",
+  },
+  {
+    name: "Project",
+    id: "project",
+  },
+  {
+    name: "Leadership",
+    id: "leadership",
+  },
+  {
+    name: "Skill",
+    id: "skill",
+  },
+  {
+    name: "Award",
+    id: "award",
   },
 ];

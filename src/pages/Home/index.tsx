@@ -23,7 +23,7 @@ import "./style.css";
 function Home() {
   return (
     <div className="pb-10 relative">
-      <div className="absolute right-10 -top-10">
+      <div className="absolute right-10 -top-10" id="home">
         <select
           name="language"
           id="language"
@@ -126,35 +126,35 @@ function Home() {
           })}
         </div>
       </Section>
-      <Section title={"Projects"}>
+      <Section title={"Project"}>
         <div className="flex flex-wrap gap-5 justify-center">
           {projects.map((project) => (
-            <ProjectCard project={project} />
-          ))}
-        </div>
-      </Section>
-      <Section title={"Awards"}>
-        <div className="flex base:max-sm:flex-col justify-center items-center gap-5">
-          {awards.map((award) => (
-            <AwardCard award={award} />
-          ))}
-        </div>
-      </Section>
-      <Section title={"Skills"}>
-        <div className="flex flex-wrap gap-5 justify-center">
-          {skills.map((skill) => (
-            <SkillCard skill={skill} />
+            <ProjectCard project={project} key={project.name} />
           ))}
         </div>
       </Section>
       <Section title={"Leadership"}>
         <div className="flex flex-wrap gap-5 justify-center">
           {volunteers.map((volunteer) => (
-            <VolunteerCard volunteer={volunteer} />
+            <VolunteerCard volunteer={volunteer} key={volunteer.organization} />
           ))}
         </div>
       </Section>
-      <div className="flex flex-col items-center text-center py-10">
+      <Section title={"Skill"}>
+        <div className="flex flex-wrap gap-5 justify-center">
+          {skills.map((skill) => (
+            <SkillCard skill={skill} key={skill.topic} />
+          ))}
+        </div>
+      </Section>
+      <Section title={"Award"}>
+        <div className="flex base:max-sm:flex-col justify-center items-center gap-5">
+          {awards.map((award) => (
+            <AwardCard award={award} key={award.name} />
+          ))}
+        </div>
+      </Section>
+      <div className="flex flex-col items-center text-center py-10" id="motto">
         <div className="pb-5">
           <Typography type="h3" className="text-center">
             <span> . . . </span> نُوْرٌ عَلٰى نُوْرٍۗ <span> . . . </span>

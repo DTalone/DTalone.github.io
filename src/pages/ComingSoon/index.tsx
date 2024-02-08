@@ -8,8 +8,7 @@ function ComingSoon() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (click > 10) navigate("/hehe");
-    console.log(click);
+    if (click > 5) navigate("/hehe");
   }, [click]);
 
   return (

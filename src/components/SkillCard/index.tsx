@@ -23,7 +23,7 @@ export default function SkillCard({ skill }: SkillCardProps) {
       {items.map((item, i, row) => {
         if (i + 1 === row.length)
           return (
-            <div>
+            <div key={item.rank}>
               <Typography type="p">{item.rank}</Typography>
               {item.lists.map((point, j, col) => {
                 if (j + 1 === col.length) return point.name;
@@ -33,7 +33,7 @@ export default function SkillCard({ skill }: SkillCardProps) {
           );
         else
           return (
-            <>
+            <div key={item.rank}>
               <div>
                 <Typography type="p">{item.rank}</Typography>
                 {item.lists.map((point, j, col) => {
@@ -42,7 +42,7 @@ export default function SkillCard({ skill }: SkillCardProps) {
                 })}
               </div>
               <div className="divider border-t-2 border-neutral-100" />
-            </>
+            </div>
           );
       })}
     </div>

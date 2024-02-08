@@ -49,6 +49,11 @@ interface General {
   logo: string;
 }
 
+export interface Navigation {
+  name: string;
+  id: string;
+}
+
 interface SkillDetail {
   rank: string;
   lists: General[];

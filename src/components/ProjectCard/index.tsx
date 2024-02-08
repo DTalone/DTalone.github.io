@@ -58,7 +58,9 @@ export default function ProjectCard({ project }: ProjectcardProps) {
       </div>
       <div>
         {descriptions.map((description) => (
-          <Typography type="p">- {description}</Typography>
+          <Typography type="p" key={description}>
+            - {description}
+          </Typography>
         ))}
       </div>
     </div>

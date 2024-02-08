@@ -11,7 +11,9 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Container>
       <Header />
-      <RouterProvider router={router} />
+      <div className="pt-20">
+        <RouterProvider router={router} />
+      </div>
       <Footer />
     </Container>
   </React.StrictMode>

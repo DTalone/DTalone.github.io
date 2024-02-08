@@ -30,7 +30,9 @@ export default function AwardCard({ award }: AwardCardProps) {
         <Typography type="p">{highglight}</Typography>
         <Typography type="p">{date}</Typography>
         {descriptions.map((description) => (
-          <Typography type="p">- {description}</Typography>
+          <Typography type="p" key={description}>
+            - {description}
+          </Typography>
         ))}
       </div>
     </div>
