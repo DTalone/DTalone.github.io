@@ -4,6 +4,7 @@ import {
   experiences,
   projects,
   skills,
+  volunteers,
 } from "../../assets/constant";
 import AwardCard from "../../components/AwardCard";
 import CompanyCard from "../../components/CompanyCard";
@@ -16,6 +17,7 @@ import Section from "../../components/Section";
 import SkillCard from "../../components/SkillCard";
 import SocialMediaButton from "../../components/SocialMediaButton";
 import Typography from "../../components/Typography";
+import VolunteerCard from "../../components/VolunteerCard";
 import "./style.css";
 
 function Home() {
@@ -132,7 +134,11 @@ function Home() {
         </div>
       </Section>
       <Section title={"Leadership"}>
-        <div></div>
+        <div className="flex flex-wrap gap-5 justify-center">
+          {volunteers.map((volunteer) => (
+            <VolunteerCard volunteer={volunteer} />
+          ))}
+        </div>
       </Section>
     </>
   );

@@ -231,6 +231,7 @@ export const educations = [
 export const volunteers = [
   {
     organization: "HMIF ITB",
+    logo: "x.png",
     location: {
       city: "South Jakarta",
       province: "Jakarta",
@@ -239,6 +240,8 @@ export const volunteers = [
     jobs: [
       {
         position: "Associate Frontend Engineer",
+        dateStart: "January 2023",
+        dateEnd: "January 2023",
         descriptions: [
           "Lorem ipsum dolor sit amet huhu ahaha hihi",
           "Lorem ipsum dolor sit amet huhu ahaha hihi",
@@ -249,6 +252,7 @@ export const volunteers = [
   },
   {
     organization: "HMIF ITB",
+    logo: "x.png",
     location: {
       city: "South Jakarta",
       province: "Jakarta",
@@ -257,6 +261,92 @@ export const volunteers = [
     jobs: [
       {
         position: "Associate Frontend Engineer",
+        dateStart: "January 2023",
+        dateEnd: "January 2023",
+        descriptions: [
+          "Lorem ipsum dolor sit amet huhu ahaha hihi",
+          "Lorem ipsum dolor sit amet huhu ahaha hihi",
+          "Lorem ipsum dolor sit amet huhu ahaha hihi",
+        ],
+      },
+    ],
+  },
+  {
+    organization: "HMIF ITB",
+    logo: "x.png",
+    location: {
+      city: "South Jakarta",
+      province: "Jakarta",
+      country: "Indonesia",
+    },
+    jobs: [
+      {
+        position: "Associate Frontend Engineer",
+        dateStart: "January 2023",
+        dateEnd: "January 2023",
+        descriptions: [
+          "Lorem ipsum dolor sit amet huhu ahaha hihi",
+          "Lorem ipsum dolor sit amet huhu ahaha hihi",
+          "Lorem ipsum dolor sit amet huhu ahaha hihi",
+        ],
+      },
+    ],
+  },
+  {
+    organization: "HMIF ITB",
+    logo: "x.png",
+    location: {
+      city: "South Jakarta",
+      province: "Jakarta",
+      country: "Indonesia",
+    },
+    jobs: [
+      {
+        position: "Associate Frontend Engineer",
+        dateStart: "January 2023",
+        dateEnd: "January 2023",
+        descriptions: [
+          "Lorem ipsum dolor sit amet huhu ahaha hihi",
+          "Lorem ipsum dolor sit amet huhu ahaha hihi",
+          "Lorem ipsum dolor sit amet huhu ahaha hihi",
+        ],
+      },
+    ],
+  },
+  {
+    organization: "HMIF ITB",
+    logo: "x.png",
+    location: {
+      city: "South Jakarta",
+      province: "Jakarta",
+      country: "Indonesia",
+    },
+    jobs: [
+      {
+        position: "Associate Frontend Engineer",
+        dateStart: "January 2023",
+        dateEnd: "January 2023",
+        descriptions: [
+          "Lorem ipsum dolor sit amet huhu ahaha hihi",
+          "Lorem ipsum dolor sit amet huhu ahaha hihi",
+          "Lorem ipsum dolor sit amet huhu ahaha hihi",
+        ],
+      },
+    ],
+  },
+  {
+    organization: "HMIF ITB",
+    logo: "x.png",
+    location: {
+      city: "South Jakarta",
+      province: "Jakarta",
+      country: "Indonesia",
+    },
+    jobs: [
+      {
+        position: "Associate Frontend Engineer",
+        dateStart: "January 2023",
+        dateEnd: "January 2023",
         descriptions: [
           "Lorem ipsum dolor sit amet huhu ahaha hihi",
           "Lorem ipsum dolor sit amet huhu ahaha hihi",

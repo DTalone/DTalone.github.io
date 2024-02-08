@@ -57,3 +57,10 @@ export interface Skill {
   topic: string;
   items: SkillDetail[];
 }
+
+export interface Volunteer {
+  organization: string;
+  logo: string;
+  location: Location;
+  jobs: JobDesc[];
+}
