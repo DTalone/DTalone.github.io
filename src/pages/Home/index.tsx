@@ -1,4 +1,10 @@
-import { educations, experiences, projects } from "../../assets/constant";
+import {
+  awards,
+  educations,
+  experiences,
+  projects,
+} from "../../assets/constant";
+import AwardCard from "../../components/AwardCard";
 import CompanyCard from "../../components/CompanyCard";
 import Google from "../../components/Google";
 import Instagram from "../../components/Instagram";
@@ -108,13 +114,17 @@ function Home() {
           <ProjectCard project={projects[1]} />
         </div>
       </Section>
+      <Section title={"Awards"}>
+        <div className="flex base:max-sm:flex-col justify-center items-center gap-5">
+          {awards.map((award) => (
+            <AwardCard award={award} />
+          ))}
+        </div>
+      </Section>
       <Section title={"Skills"}>
         <div></div>
       </Section>
-      <Section title={"Volunteer"}>
-        <div></div>
-      </Section>
-      <Section title={"Awards"}>
+      <Section title={"Leadership"}>
         <div></div>
       </Section>
     </>

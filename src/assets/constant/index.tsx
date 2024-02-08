@@ -223,7 +223,7 @@ export const volunteers = [
 export const awards = [
   {
     name: "Olimpiade Sains Nasional 2018",
-    description: "Participants in Informatiocs Course",
+    highglight: "Participants in Informatiocs Course",
     location: {
       city: "South Jakarta",
       province: "Jakarta",

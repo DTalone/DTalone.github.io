@@ -35,3 +35,11 @@ export interface Project {
   tech: string;
   descriptions: string[];
 }
+
+export interface Award {
+  name: string;
+  highglight: string;
+  location: Location;
+  date: string;
+  descriptions: string[];
+}
