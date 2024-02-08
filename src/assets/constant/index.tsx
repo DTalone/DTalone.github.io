@@ -119,16 +119,16 @@ export const experiences = [
 export const projects = [
   {
     name: "API Endpoint 2.0 Salam Cendekia",
-    dateStart: "January 2023",
-    dateEnd: "January 2024",
-    stack: "Laravel",
+    pictures: ["x.png"],
+    date: "January 2023",
+    tech: "Laravel",
     descriptions: ["Lorem ipsum dolor sit amet huhu ahaha hihi"],
   },
   {
-    name: "API Endpoint 2.0 Salam Cendekia",
-    dateStart: "January 2023",
-    dateEnd: "January 2024",
-    stack: "Laravel",
+    name: "E-Tahfidz Darunnajah MAN IC OKI",
+    pictures: ["etahfidz_1.png", "etahfidz_2.png"],
+    date: "January 2023",
+    tech: "Laravel",
     descriptions: ["Lorem ipsum dolor sit amet huhu ahaha hihi"],
   },
 ];

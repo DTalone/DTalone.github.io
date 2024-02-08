@@ -27,3 +27,11 @@ export interface School {
   dateEnd: string;
   descriptions: string[];
 }
+
+export interface Project {
+  name: string;
+  pictures: string[];
+  date: string;
+  tech: string;
+  descriptions: string[];
+}

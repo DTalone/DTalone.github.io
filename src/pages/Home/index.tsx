@@ -1,8 +1,9 @@
-import { educations, experiences } from "../../assets/constant";
+import { educations, experiences, projects } from "../../assets/constant";
 import CompanyCard from "../../components/CompanyCard";
 import Google from "../../components/Google";
 import Instagram from "../../components/Instagram";
 import LinkedIn from "../../components/LinkedIn";
+import ProjectCard from "../../components/ProjectCard";
 import SchoolCard from "../../components/SchoolCard";
 import Section from "../../components/Section";
 import SocialMediaButton from "../../components/SocialMediaButton";
@@ -102,7 +103,10 @@ function Home() {
         </div>
       </Section>
       <Section title={"Projects"}>
-        <div></div>
+        <div className="grid grid-cols-2 justify-items-center">
+          <ProjectCard project={projects[0]} />
+          <ProjectCard project={projects[1]} />
+        </div>
       </Section>
       <Section title={"Skills"}>
         <div></div>
