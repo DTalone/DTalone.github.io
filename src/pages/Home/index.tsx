@@ -3,6 +3,7 @@ import {
   educations,
   experiences,
   projects,
+  skills,
 } from "../../assets/constant";
 import AwardCard from "../../components/AwardCard";
 import CompanyCard from "../../components/CompanyCard";
@@ -12,6 +13,7 @@ import LinkedIn from "../../components/LinkedIn";
 import ProjectCard from "../../components/ProjectCard";
 import SchoolCard from "../../components/SchoolCard";
 import Section from "../../components/Section";
+import SkillCard from "../../components/SkillCard";
 import SocialMediaButton from "../../components/SocialMediaButton";
 import Typography from "../../components/Typography";
 import "./style.css";
@@ -109,9 +111,10 @@ function Home() {
         </div>
       </Section>
       <Section title={"Projects"}>
-        <div className="grid grid-cols-2 justify-items-center">
-          <ProjectCard project={projects[0]} />
-          <ProjectCard project={projects[1]} />
+        <div className="flex flex-wrap gap-5 justify-center">
+          {projects.map((project) => (
+            <ProjectCard project={project} />
+          ))}
         </div>
       </Section>
       <Section title={"Awards"}>
@@ -122,7 +125,11 @@ function Home() {
         </div>
       </Section>
       <Section title={"Skills"}>
-        <div></div>
+        <div className="flex flex-wrap gap-5 justify-center">
+          {skills.map((skill) => (
+            <SkillCard skill={skill} />
+          ))}
+        </div>
       </Section>
       <Section title={"Leadership"}>
         <div></div>

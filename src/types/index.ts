@@ -43,3 +43,17 @@ export interface Award {
   date: string;
   descriptions: string[];
 }
+
+interface General {
+  name: string;
+  logo: string;
+}
+
+interface SkillDetail {
+  rank: string;
+  lists: General[];
+}
+export interface Skill {
+  topic: string;
+  items: SkillDetail[];
+}

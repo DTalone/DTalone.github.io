@@ -133,16 +133,63 @@ export const projects = [
   },
 ];
 
-export const skills = {
-  programming: {
-    intermediate: ["C++", "C", "JAVA", "PASCAL", "HTML", "CSS", "Javascript"],
-    basic: ["Other..."],
+export const skills = [
+  {
+    topic: "Programming",
+    items: [
+      {
+        rank: "Intermediate",
+        lists: [
+          { name: "C++", logo: "x.png" },
+          { name: "C", logo: "x.png" },
+          { name: "JAVA", logo: "x.png" },
+          { name: "Python", logo: "x.png" },
+          { name: "HTML", logo: "x.png" },
+          { name: "CSS", logo: "x.png" },
+          { name: "Javascript", logo: "x.png" },
+        ],
+      },
+      { rank: "Basic", lists: [{ name: "Other...", logo: "x.png" }] },
+    ],
   },
-  framework: {
-    intermediate: ["React", "Vue", "Codeigniter", "Node.js"],
-    basic: ["Angular", "Nuxt", "Next", "Laravel"],
+  {
+    topic: "Framework",
+    items: [
+      {
+        rank: "Intermediate",
+        lists: [
+          { name: "React", logo: "x.png" },
+          { name: "Vue", logo: "x.png" },
+          { name: "Codeigniter", logo: "x.png" },
+          { name: "Node.js", logo: "x.png" },
+        ],
+      },
+      {
+        rank: "Basic",
+        lists: [
+          { name: "Angular", logo: "x.png" },
+          { name: "Nuxt", logo: "x.png" },
+          { name: "Next", logo: "x.png" },
+          { name: "Laravel", logo: "x.png" },
+        ],
+      },
+    ],
   },
-};
+  {
+    topic: "Language",
+    items: [
+      { rank: "Native", lists: [{ name: "Indonesian", logo: "x.png" }] },
+      { rank: "Intermediate", lists: [{ name: "English", logo: "x.png" }] },
+      {
+        rank: "Basic",
+        lists: [
+          { name: "Spanish", logo: "x.png" },
+          { name: "Deutschland", logo: "x.png" },
+        ],
+      },
+    ],
+  },
+];
 
 export const educations = [
   {
