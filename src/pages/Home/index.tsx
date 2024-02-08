@@ -22,11 +22,25 @@ import "./style.css";
 
 function Home() {
   return (
-    <div className="pb-10">
+    <div className="pb-10 relative">
+      <div className="absolute right-10 -top-10">
+        <select
+          name="language"
+          id="language"
+          className="bg-transparent text-neutral-100 border-2 border-neutral-100 rounded px-5 py-1"
+        >
+          <option value="INDONESIA">IN</option>
+          <option value="ENGLISH">EN</option>
+        </select>
+      </div>
       <div className="flex flex-col-reverse sm:flex-row">
         <div className="flex  flex-col justify-center items-center p-10 sm:w-[50%]">
           <div className="rounded-full overflow-hidden border-2 border-neutral-600 sm:max-md:w-[70%] md:max-lg:w-[80%]">
-            <img src="/foto.png" alt="foto-faziz" />
+            <img
+              src="/selfie.png"
+              alt="foto-faziz"
+              style={{ pointerEvents: "none" }}
+            />
           </div>
           <div className="flex justify-center gap-5 p-5">
             <SocialMediaButton
@@ -140,17 +154,14 @@ function Home() {
           ))}
         </div>
       </Section>
-      <div className="flex flex-col items-center text-center pt-20 pb-10">
+      <div className="flex flex-col items-center text-center py-10">
         <div className="pb-5">
           <Typography type="h3" className="text-center">
             <span> . . . </span> نُوْرٌ عَلٰى نُوْرٍۗ <span> . . . </span>
           </Typography>
         </div>
         <div className="base:max-md:px-10 md:w-1/2">
-          <Typography type="p">
-            "... Light upon light! Allah guides whoever He wills to His light.
-            ..."
-          </Typography>
+          <Typography type="p">"... Light upon light! ..."</Typography>
           <Typography type="p">(Q24:35)</Typography>
         </div>
       </div>
