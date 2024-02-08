@@ -153,5 +153,5 @@ Error generating stack: `+o.message+`
             top-0 ${n?"rotate-[135deg] top-[10px]":""}`}),h.jsx("span",{className:`h-2 w-full absolute bg-neutral-700 rounded left-0 origin-center rotate-0 ease-in-out duration-[250ms]
             inset-y-1/2 -translate-y-1/2
             ${n?" opacity-0":"opacity-100"}`}),h.jsx("span",{className:`h-2 w-full absolute bg-neutral-700 rounded left-0 opacity-100 origin-center rotate-0 ease-in-out duration-[250ms]
-            bottom-0 ${n?"-rotate-z-[135deg] top-[10px]":""}`})]})}),h.jsx("div",{className:`py-10 bg-neutral-100 h-screen max-w-sm origin-left-center  duration-500 
+            bottom-0 ${n?"-rotate-[135deg] top-[10px]":""}`})]})}),h.jsx("div",{className:`py-10 bg-neutral-100 h-screen max-w-sm origin-left-center  duration-500 
       ${n?"rotate-z-0":"rotate-y-[90deg]"}`,children:h.jsx("div",{className:"flex flex-col items-center h-full gap-10",children:Js.map(o=>h.jsx(Xs,{navigation:o,handleClick:l(!1)},o.id))})})]})}mi.createRoot(document.getElementById("root")).render(h.jsx(lc.StrictMode,{children:h.jsxs(Z0,{children:[h.jsx(ev,{}),h.jsx("div",{className:"pt-20",children:h.jsx(L0,{router:G0})}),h.jsx(Y0,{})]})}));
