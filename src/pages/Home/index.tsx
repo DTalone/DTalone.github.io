@@ -29,7 +29,7 @@ function Home() {
           id="language"
           className="bg-transparent text-neutral-100 border-2 border-neutral-100 rounded px-5 py-1"
         >
-          <option value="INDONESIA">IN</option>
+          <option value="INDONESIA">ID</option>
           <option value="ENGLISH">EN</option>
         </select>
       </div>

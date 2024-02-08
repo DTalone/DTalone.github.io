@@ -32,6 +32,9 @@ export default {
       borderRadius: {
         DEFAULT: "20px",
       },
+      transformOrigin: {
+        "left-center": "left center",
+      },
     },
     fontFamily: {
       kronaone: ["Krona One", "fantasy"],
@@ -45,5 +48,5 @@ export default {
       "3xl": "1600px",
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-3d")({ legacy: true })],
 };
