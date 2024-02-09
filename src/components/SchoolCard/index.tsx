@@ -42,7 +42,12 @@ export default function SchoolCard({
         <h4 className="text-xs sm:text-base">
           {`${location.city}, ${location.province}, ${location.country}`}
         </h4>
-        <h5 className=" text-xs sm:text-sm">{`${dateStart}-${dateEnd}`}</h5>
+        {dateStart && dateEnd && (
+          <h5 className=" text-xs sm:text-sm">{`${dateStart}-${dateEnd}`}</h5>
+        )}
+        {!dateStart && dateEnd && (
+          <h5 className=" text-xs sm:text-sm">{`${dateEnd}`}</h5>
+        )}
       </div>
       <div className="flex flex-col gap-2">
         <div>

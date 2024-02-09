@@ -36,9 +36,14 @@ export default function VolunteerCard({ volunteer }: VolunteerCardProps) {
               <h5 className="font-semibold text-xs md:text-base">
                 {job.position}
               </h5>
-              <h6 className=" text-xs md:text-sm">
-                {job.dateStart} - {job.dateEnd}
-              </h6>
+              {job.dateStart && job.dateEnd && (
+                <h6 className=" text-xs md:text-sm">
+                  {job.dateStart} - {job.dateEnd}
+                </h6>
+              )}
+              {!job.dateStart && job.dateEnd && (
+                <h6 className=" text-xs md:text-sm">{job.dateEnd}</h6>
+              )}
               <ul>
                 {job.descriptions.map((description) => {
                   return (

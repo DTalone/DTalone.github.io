@@ -1,4 +1,5 @@
 import {
+  aboutMe,
   awards,
   educations,
   experiences,
@@ -29,8 +30,8 @@ function Home() {
           id="language"
           className="bg-transparent text-neutral-100 border-2 border-neutral-100 rounded px-5 py-1"
         >
-          <option value="INDONESIA">ID</option>
           <option value="ENGLISH">EN</option>
+          <option value="INDONESIA">ID</option>
         </select>
       </div>
       <div className="flex flex-col-reverse sm:flex-row">
@@ -66,12 +67,7 @@ function Home() {
               className={`max-w-md min-w-64 min-h-20 rounded bg-neutral-600 py-5 px-10 text-justify indent-5 shadow-card
                           base:max-sm:px-5`}
             >
-              <Typography type="p">
-                I am passionate about leadership, web development, and social
-                activity. Practical, adventurous, adaptable are three words to
-                describe my personality. My team members always counts on me to
-                coordinate the project.
-              </Typography>
+              <Typography type="p">{aboutMe}</Typography>
             </div>
           </div>
           <div className="p-5 text-center">

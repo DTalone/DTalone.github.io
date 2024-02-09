@@ -35,6 +35,10 @@ export default {
       transformOrigin: {
         "left-center": "left center",
       },
+      rotate: {
+        135: "135deg",
+        cc135: "-135deg",
+      },
     },
     fontFamily: {
       kronaone: ["Krona One", "fantasy"],

@@ -5,19 +5,15 @@ import Home from "../pages/Home";
 const routes = [
   {
     path: "/",
-    element: <ComingSoon />,
+    element: <Home />,
   },
   {
     path: "/hehe",
-    element: <Home />,
+    element: <ComingSoon />,
   },
   {
     path: "/hehehe",
     element: <App />,
-  },
-  {
-    path: "/hehehehe",
-    element: <div>TESSSS</div>,
   },
 ];
 

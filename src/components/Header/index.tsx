@@ -71,52 +71,68 @@ function Header() {
   }
 
   return (
-    <div className="absolute top-0 w-full h-[150px] z-50 sticky bg-neutral-300">
-      {screenSize.width >= 765 && (
-        <div className="flex justify-center items-center h-full gap-10">
-          {navigations.map((navigation) => (
-            <NavItem navigation={navigation} key={navigation.id} />
-          ))}
-        </div>
-      )}
-      {screenSize.width < 765 && (
-        <div
-          className="flex justify-start items-center h-full px-10"
-          onClick={toggleSidebar(!isOpen)}
-          onBlur={toggleSidebar(false)}
-        >
-          <div className="w-12 h-14 origin-center rotate-0 cursor-pointer ease-in-out duration-500 relative">
-            <span
-              className={`h-2 w-full absolute bg-neutral-700 rounded left-0 opacity-100 origin-center rotate-0 ease-in-out duration-[250ms]
-            top-[2px] ${isOpen ? "rotate-[135deg] top-[10px]" : ""}`}
-            />
-            <span
-              className={`h-2 w-full absolute bg-neutral-700 rounded left-0 origin-center rotate-0 ease-in-out duration-[250ms]
-            top-[14px]
+    <>
+      <div
+        className={`absolute top-0 h-[100px] z-50 sticky ${
+          isOpen && screenSize.width < 765
+            ? "max-w-sm bg-neutral-100"
+            : "w-full  bg-neutral-300"
+        }`}
+      >
+        {screenSize.width >= 765 && (
+          <div className="flex justify-center items-center h-full gap-10">
+            {navigations.map((navigation) => (
+              <NavItem navigation={navigation} key={navigation.id} />
+            ))}
+          </div>
+        )}
+        {screenSize.width < 765 && (
+          <div
+            className="flex justify-start items-center h-full px-10"
+            onBlur={toggleSidebar(false)}
+          >
+            <div
+              className="w-8 h-8 origin-center rotate-0 cursor-pointer ease-in-out duration-500 relative"
+              onClick={toggleSidebar(!isOpen)}
+            >
+              <span
+                className={`h-2 w-full absolute bg-neutral-700 rounded left-0 opacity-100 origin-center rotate-0 ease-in-out duration-[250ms]
+            top-0 ${isOpen ? "rotate-z-135 top-[10px]" : ""}`}
+              />
+              <span
+                className={`h-2 w-full absolute bg-neutral-700 rounded left-0 origin-center rotate-0 ease-in-out duration-[250ms]
+            inset-y-1/2 -translate-y-1/2
             ${isOpen ? " opacity-0" : "opacity-100"}`}
-            />
-            <span
-              className={`h-2 w-full absolute bg-neutral-700 rounded left-0 opacity-100 origin-center rotate-0 ease-in-out duration-[250ms]
-            top-[26px] ${isOpen ? "-rotate-z-[135deg] top-[10px]" : ""}`}
-            />
+              />
+              <span
+                className={`h-2 w-full absolute bg-neutral-700 rounded left-0 opacity-100 origin-center rotate-0 ease-in-out duration-[250ms]
+            bottom-0 ${isOpen ? "rotate-z-cc135 top-[10px]" : ""}`}
+              />
+            </div>
+          </div>
+        )}
+        <div
+          className={`py-10 bg-neutral-100 h-screen max-w-sm origin-left-center  duration-500 
+      ${isOpen ? "rotate-z-0" : "rotate-y-[90deg]"}`}
+        >
+          <div className="flex flex-col items-center h-full gap-10">
+            {navigations.map((navigation) => (
+              <NavItem
+                navigation={navigation}
+                handleClick={toggleSidebar(false)}
+                key={navigation.id}
+              />
+            ))}
           </div>
         </div>
-      )}
-      <div
-        className={`py-10 bg-neutral-100 h-screen max-w-sm origin-left-center  duration-500 
-      ${isOpen ? "rotate-z-0" : "rotate-y-[90deg]"}`}
-      >
-        <div className="flex flex-col items-center h-full gap-10">
-          {navigations.map((navigation) => (
-            <NavItem
-              navigation={navigation}
-              handleClick={toggleSidebar(false)}
-              key={navigation.id}
-            />
-          ))}
-        </div>
       </div>
-    </div>
+      {isOpen && (
+        <div
+          className="absolute w-full h-full bg-neutral-900 z-40 opacity-70"
+          onClick={toggleSidebar(false)}
+        />
+      )}
+    </>
   );
 }
 
