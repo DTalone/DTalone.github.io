@@ -6,6 +6,12 @@ import { RouterProvider } from "react-router-dom";
 import Footer from "./components/Footer/index.tsx";
 import Container from "./components/Container/index.tsx";
 import Header from "./components/Header/index.tsx";
+import Hotjar from "@hotjar/browser";
+
+const siteId = 2451226;
+const hotjarVersion = 6;
+
+Hotjar.init(siteId, hotjarVersion);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
