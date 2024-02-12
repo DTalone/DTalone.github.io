@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { navigations } from "../../assets/constant";
+import constant from "../../assets/constant";
 import useScreenSize from "../../hooks/useScreenSize";
 import useScrollPosition from "../../hooks/useScrollPosition";
 import { Navigation } from "../../types";
@@ -61,6 +61,8 @@ function Header() {
   const scrollPosition = useScrollPosition();
   const screenSize = useScreenSize();
   const [isOpen, setIsOpen] = useState(false);
+
+  const { navigations } = constant();
 
   const toggleSidebar = (value: boolean) => () => {
     setIsOpen(value);

@@ -1,0 +1,19 @@
+{
+  "translation": {
+    "welcome": "Selamat Datang",
+    "location": {
+      "tangsel": "Tangerang Selatan",
+      "jaksel": "Jakarta Selatan",
+      "jakpus": "Jakarta Pusat",
+      "banten": "Banten",
+      "jabar": "Jawa Barat",
+      "bandung": "Bandung",
+      "padang": "Padang",
+      "sumbar": "Sumatera Barat",
+      "indonesia": "Indonesia"
+    },
+    "aboutMe": "Seorang lulusan sarjana teknik informatika dari Institut Teknologi Bandung. Saya senang dengan hal kepemimpinan, pengembangan website, dan kegiatan sosial. Praktis, petualangan, dan mudah adaptasi mendeskripsikan personal saya. Anggota tim saya selalu mengandalkan saya untuk mengkoordinasi sebuah project.",
+    "experience": "Experience",
+    "motto": "Light upon light!"
+  }
+}

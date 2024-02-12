@@ -1,12 +1,16 @@
-import { experiences } from "../../assets/constant";
+import constant from "../../assets/constant";
 import CompanyCard from "../CompanyCard";
 import Section from "../Section";
 
 export default function ExperienceSection() {
+  const {
+    experience: { title, items },
+  } = constant();
+
   return (
-    <Section title={"Experience"}>
+    <Section title={title}>
       <div className="flex flex-col items-center origin-center rotate-0 ease-in-out duration-[250ms]">
-        {experiences.map((experience, i, row) => {
+        {items.map((experience, i, row) => {
           let order: "FIRST" | "LAST" | "SINGLE" | "" = "";
           if (i === 0 && i + 1 === row.length) order = "SINGLE";
           else if (i + 1 === row.length) order = "LAST";

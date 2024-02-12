@@ -1,11 +1,12 @@
-import { aboutMe } from "../../assets/constant";
 import Google from "../Google";
 import Instagram from "../Instagram";
 import LinkedIn from "../LinkedIn";
 import SocialMediaButton from "../SocialMediaButton";
 import Typography from "../Typography";
+import constant from "../../assets/constant";
 
 export default function AboutSection() {
+  const { welcome, aboutMe } = constant();
   return (
     <div className="flex flex-col-reverse sm:flex-row">
       <div className="flex  flex-col justify-center items-center p-10 sm:w-[50%]">
@@ -33,7 +34,7 @@ export default function AboutSection() {
       </div>
       <div className="grow flex flex-col ">
         <div className="text-center  p-5">
-          <Typography type="h1">Welcome</Typography>
+          <Typography type="h1">{welcome}</Typography>
         </div>
         <div className="p-5 flex justify-center">
           <div

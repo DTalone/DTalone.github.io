@@ -7,6 +7,7 @@ import Footer from "./components/Footer/index.tsx";
 import Container from "./components/Container/index.tsx";
 import Header from "./components/Header/index.tsx";
 import Hotjar from "@hotjar/browser";
+import "./translations";
 
 const siteId = 2451226;
 const hotjarVersion = 6;

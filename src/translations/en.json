@@ -1,0 +1,151 @@
+{
+  "translation": {
+    "welcome": "Welcome",
+    "location": {
+      "tangsel": "South Tangerang",
+      "jaksel": "South Jakarta",
+      "jakpus": "Central Jakarta",
+      "banten": "Banten",
+      "jabar": "West Java",
+      "bandung": "Bandung",
+      "jakarta": "Jakarta",
+      "padang": "Padang",
+      "sumbar": "West Sumatra",
+      "indonesia": "Indonesia"
+    },
+    "month": {
+      "1": "January",
+      "2": "February",
+      "3": "March",
+      "4": "April",
+      "5": "May",
+      "6": "June",
+      "7": "July",
+      "8": "August",
+      "9": "September",
+      "10": "October",
+      "11": "November",
+      "12": "December",
+      "present": "Present"
+    },
+    "indonesian": "Indonesian",
+    "english": "English",
+    "spanish": "Spanish",
+    "deutschland": "Deutschlan",
+    "home": "Home",
+    "aboutMe": "A fresh graduate informatics engineering from Bandung Institute of Technology. I am passionate about leadership, web development, and social activity. Practical, adventurous, adaptable are three words to describe my personality. My team members always counts on me to coordinate the project.",
+    "experience": "Experience",
+    "associateFE": "Associate Frontend Engineer",
+    "codingTutor": "Coding Tutor",
+    "seIntern": "Software Engineer Intern",
+    "itSAIntern": "IT Solution Architect Intern",
+    "bfi": {
+      "desc1": "Contributing for internal application in frontend development of loan management."
+    },
+    "ih": {
+      "desc1": "Developed news web application with React and Typescript.",
+      "desc2": "Developed internal project related to assignment management system with React and Typescript."
+    },
+    "mps": {
+      "desc1": "Taught web programming using basic HTML, CSS, and Javascript.",
+      "desc2": "Was attend by 7 students Junior High School and 10 students Senior High School."
+    },
+    "bni": {
+      "desc1": "Developed website for manage project scheduling and monitoring for project manager.",
+      "desc2": "Created Final Assignment Website after Vue.JS Training Camp."
+    },
+    "schoters": {
+      "desc1": "Best Internship Staff in Technology Division at Town Hall March 2021.",
+      "desc2": "Developed thank you page and first page of personalization form on Schoters web 2.0 using nuxt and vue.",
+      "desc3": "Enhanced frontend design responsive for product page and dashboard page in mobile."
+    },
+    "education": "Education",
+    "ie": "Informatics Engineering",
+    "ipa": "Science",
+    "itb": {
+      "name": "Bandung Institute of Technology",
+      "desc1": "Cum Laude.",
+      "desc2": "Fresh graduate informatics engineering student.",
+      "desc3": "Relevant Coursework : Object Oriented Programming, Software Engineering, Algorithm Strategies, Data Structures, Information System, Machine Learning."
+    },
+    "sma8": {
+      "name": "8 Senior High School",
+      "desc1": "Participated in Flag Raisers Club, Football Club, and Student Club.",
+      "desc2": "Putra-Putri SMANDEL 2016, this program was held to celebrate Government Program called Sekolah Rujukan Nasional. Ranked 1st out of 30 paired candidates."
+    },
+    "project": "Project",
+    "tech": "Tech",
+    "salcen": {
+      "desc1": "Developed backend for website preparation for student who want to study MAN IC. Server created using Codeigniter 4."
+    },
+    "manICOKI": {
+      "desc1": "Developed Website for submit Quran recitation for submission or murajaah in MAN IC OKI. Website created using framework Vue.js version 3.2."
+    },
+    "leadership": "Leadership",
+    "hmif": {
+      "jobs1": {
+        "position": "President of HMIF ITB 2022/2023",
+        "desc1": "Was responsible for the management of activities in HMIF ITB.",
+        "desc2": "Led nearly 800 members of HMIF ITB."
+      },
+      "jobs2": {
+        "position": "Head of Operational Department in SPARTA 2021 HMIF",
+        "desc1": "Coordinated innovation and technology division to build a website with flutter and node.js.",
+        "desc2": "Organized logistic division to build virtual world and handled Zoom meeting."
+      }
+    },
+    "iotech": {
+      "jobs1": {
+        "position": "Project Manager",
+        "desc1": "Coordinated event of seminar that attended with over 200 people who are interested in Internet of Things.",
+        "desc2": "Held competition which consist of business model canvas competition and prototype design competition that participated with over 39 person.",
+        "desc3": "Organized virtual exhibition with over 9 company related to the Internet of Things participated."
+      }
+    },
+    "ubv": {
+      "jobs1": {
+        "position": "Head of Home Affairs Division",
+        "desc1": "Organized all the needs of the volleyball team and organization such as net, ball, and jersey so that all events went smoothly."
+      },
+      "jobs2": {
+        "position": "Project Manager of Syukuran Wisuda",
+        "desc1": "Went smoothly because 80% of graduates feel very proud and happy.",
+        "desc2": "Attended by 70 UBV member to celebrate graduation of 36 members UBV."
+      }
+    },
+    "wisokto": {
+      "jobs1": {
+        "position": "Head of Website Division",
+        "desc1": "Developed website for appreciate graduates using Vue.js, Laravel, and MySQL. Total almost 1700 graduates were appreciated in this website.",
+        "desc2": "Developed website virtual final project exhibition Vue.js, Laravel, and MySQL. Total almost 120 graduates submit their final project.",
+        "desc3": "Developed website virtual education fair Vue.js. Total 12 company join this event and held the video conference each day."
+      }
+    },
+    "osisSMA8": {
+      "jobs1": {
+        "position": "Head of Department I : Religion",
+        "desc1": "Was responsible to control and connect organization such as Rohani Islam, Rohani Kristen, Rohani Katolik to Teacher Committee."
+      },
+      "jobs2": {
+        "position": "Project Manager of Pendidikan dan Pelatihan Organisasi (DiOr)",
+        "desc1": "Attended by over 50 participants from all extracurricular in SMAN 8 Jakarta."
+      }
+    },
+    "skill": "Skill",
+    "programming": "Programming",
+    "framework": "Framework",
+    "language": "Language",
+    "native": "Native",
+    "basic": "Basic",
+    "intermediate": "Intermediate",
+    "other": "Other",
+    "award": "Award",
+    "osn": {
+      "name": "Olimpiade Sains Nasional",
+      "highlight": "Participants in Informatiocs Course",
+      "desc1": "Top 82 high school student from all high school student in Indonesia.",
+      "desc2": "Analysed about math logic problem and solve it with the efficient algorithm."
+    },
+    "motto": "Light upon light!"
+  }
+}

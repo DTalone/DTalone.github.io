@@ -1,12 +1,15 @@
-import { awards } from "../../assets/constant";
+import constant from "../../assets/constant";
 import AwardCard from "../AwardCard";
 import Section from "../Section";
 
 export default function AwardSection() {
+  const {
+    award: { title, items },
+  } = constant();
   return (
-    <Section title={"Award"}>
+    <Section title={title}>
       <div className="flex base:max-sm:flex-col justify-center items-center gap-5">
-        {awards.map((award) => (
+        {items.map((award) => (
           <AwardCard award={award} key={award.name} />
         ))}
       </div>
